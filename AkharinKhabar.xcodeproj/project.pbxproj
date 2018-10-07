@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033B6E6CD4639CC517BF1E80 /* Pods_AkharinKhabarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1B237BE2515C0B6BD50F79 /* Pods_AkharinKhabarUITests.framework */; };
+		2260C0805D668BFEE2BB4BA6 /* Pods_AkharinKhabar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD8F9B2C4D1E0FE7B71DDD1 /* Pods_AkharinKhabar.framework */; };
+		864D13E2404C921A6566B826 /* Pods_AkharinKhabarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5DF343B514A4E2D5BF8976 /* Pods_AkharinKhabarTests.framework */; };
+		C113C14A2169F98700321307 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113C1492169F98700321307 /* UIViewController.swift */; };
+		C113C14F216A0A4B00321307 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113C14E216A0A4B00321307 /* UIButton.swift */; };
+		C113C151216A107C00321307 /* Preloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113C150216A107C00321307 /* Preloader.swift */; };
+		C159315F2165385E00AF8C00 /* NewsPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159315E2165385E00AF8C00 /* NewsPhoto.swift */; };
+		C159316C21653D6600AF8C00 /* BaseNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C159316B21653D6600AF8C00 /* BaseNetwork.swift */; };
+		C1D12805216532F90062C757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D12804216532F90062C757 /* AppDelegate.swift */; };
+		C1D12807216532F90062C757 /* NewsPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D12806216532F90062C757 /* NewsPhotoViewController.swift */; };
+		C1D1280A216532F90062C757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D12808216532F90062C757 /* Main.storyboard */; };
+		C1D1280C216532FC0062C757 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D1280B216532FC0062C757 /* Assets.xcassets */; };
+		C1D1280F216532FC0062C757 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D1280D216532FC0062C757 /* LaunchScreen.storyboard */; };
+		C1D1281A216532FC0062C757 /* AkharinKhabarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D12819216532FC0062C757 /* AkharinKhabarTests.swift */; };
+		C1D12825216532FC0062C757 /* AkharinKhabarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D12824216532FC0062C757 /* AkharinKhabarUITests.swift */; };
+		C1E1438521653E83005E1922 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1438421653E83005E1922 /* Config.swift */; };
+		C1E1439121655B41005E1922 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439021655B41005E1922 /* String.swift */; };
+		C1E1439321655BF5005E1922 /* NewsPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439221655BF5005E1922 /* NewsPhotoView.swift */; };
+		C1E1439521655C19005E1922 /* NewsPhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439421655C19005E1922 /* NewsPhotoCollectionView.swift */; };
+		C1E1439721655C35005E1922 /* NewsPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439621655C35005E1922 /* NewsPhotoCollectionViewCell.swift */; };
+		C1E1439921655C4F005E1922 /* NewsPhotoCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439821655C4F005E1922 /* NewsPhotoCollectionViewDelegate.swift */; };
+		C1E1439B216563AB005E1922 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439A216563AB005E1922 /* UILabel.swift */; };
+		C1E1439D2165644F005E1922 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E1439C2165644F005E1922 /* UIFont.swift */; };
+		C1E143A121656652005E1922 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E143A021656652005E1922 /* UIColor.swift */; };
+		C1E143AE2165689E005E1922 /* IRANSansMobile.otf in Resources */ = {isa = PBXBuildFile; fileRef = C1E143AD2165689E005E1922 /* IRANSansMobile.otf */; };
+		C1E143C921657800005E1922 /* DVPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E143C821657800005E1922 /* DVPImageView.swift */; };
+		C1E143D421658067005E1922 /* DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E143D321658067005E1922 /* DispatchQueue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1D12816216532FC0062C757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D127F9216532F90062C757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D12800216532F90062C757;
+			remoteInfo = AkharinKhabar;
+		};
+		C1D12821216532FC0062C757 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1D127F9216532F90062C757 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1D12800216532F90062C757;
+			remoteInfo = AkharinKhabar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32FBE48C982A93B0A0AF3F3D /* Pods-AkharinKhabar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkharinKhabar.release.xcconfig"; path = "Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar.release.xcconfig"; sourceTree = "<group>"; };
+		45226F7129C4995861401AB0 /* Pods-AkharinKhabarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkharinKhabarUITests.release.xcconfig"; path = "Target Support Files/Pods-AkharinKhabarUITests/Pods-AkharinKhabarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4A1B237BE2515C0B6BD50F79 /* Pods_AkharinKhabarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkharinKhabarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D082415EF18042FDDFA4DAF /* Pods-AkharinKhabarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkharinKhabarTests.release.xcconfig"; path = "Target Support Files/Pods-AkharinKhabarTests/Pods-AkharinKhabarTests.release.xcconfig"; sourceTree = "<group>"; };
+		A72BF42226964D144D17B049 /* Pods-AkharinKhabarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkharinKhabarTests.debug.xcconfig"; path = "Target Support Files/Pods-AkharinKhabarTests/Pods-AkharinKhabarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BF5DF343B514A4E2D5BF8976 /* Pods_AkharinKhabarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkharinKhabarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C113C1492169F98700321307 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		C113C14E216A0A4B00321307 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		C113C150216A107C00321307 /* Preloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preloader.swift; sourceTree = "<group>"; };
+		C159315E2165385E00AF8C00 /* NewsPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPhoto.swift; sourceTree = "<group>"; };
+		C159316B21653D6600AF8C00 /* BaseNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNetwork.swift; sourceTree = "<group>"; };
+		C1D12801216532F90062C757 /* AkharinKhabar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkharinKhabar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D12804216532F90062C757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1D12806216532F90062C757 /* NewsPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPhotoViewController.swift; sourceTree = "<group>"; };
+		C1D12809216532F90062C757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1D1280B216532FC0062C757 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1D1280E216532FC0062C757 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1D12810216532FC0062C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D12815216532FC0062C757 /* AkharinKhabarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkharinKhabarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D12819216532FC0062C757 /* AkharinKhabarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkharinKhabarTests.swift; sourceTree = "<group>"; };
+		C1D1281B216532FC0062C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D12820216532FC0062C757 /* AkharinKhabarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkharinKhabarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D12824216532FC0062C757 /* AkharinKhabarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkharinKhabarUITests.swift; sourceTree = "<group>"; };
+		C1D12826216532FD0062C757 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E1438421653E83005E1922 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		C1E1439021655B41005E1922 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		C1E1439221655BF5005E1922 /* NewsPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPhotoView.swift; sourceTree = "<group>"; };
+		C1E1439421655C19005E1922 /* NewsPhotoCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPhotoCollectionView.swift; sourceTree = "<group>"; };
+		C1E1439621655C35005E1922 /* NewsPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C1E1439821655C4F005E1922 /* NewsPhotoCollectionViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPhotoCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		C1E1439A216563AB005E1922 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		C1E1439C2165644F005E1922 /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		C1E143A021656652005E1922 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		C1E143AD2165689E005E1922 /* IRANSansMobile.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = IRANSansMobile.otf; sourceTree = "<group>"; };
+		C1E143C821657800005E1922 /* DVPImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DVPImageView.swift; sourceTree = "<group>"; };
+		C1E143D321658067005E1922 /* DispatchQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueue.swift; sourceTree = "<group>"; };
+		F005EC4508DE426C908B77DD /* Pods-AkharinKhabar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkharinKhabar.debug.xcconfig"; path = "Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar.debug.xcconfig"; sourceTree = "<group>"; };
+		FA587FE00FEC6514797D583C /* Pods-AkharinKhabarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkharinKhabarUITests.debug.xcconfig"; path = "Target Support Files/Pods-AkharinKhabarUITests/Pods-AkharinKhabarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDD8F9B2C4D1E0FE7B71DDD1 /* Pods_AkharinKhabar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkharinKhabar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1D127FE216532F90062C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2260C0805D668BFEE2BB4BA6 /* Pods_AkharinKhabar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D12812216532FC0062C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864D13E2404C921A6566B826 /* Pods_AkharinKhabarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D1281D216532FC0062C757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033B6E6CD4639CC517BF1E80 /* Pods_AkharinKhabarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ECB549B6DADCD90C62279F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD8F9B2C4D1E0FE7B71DDD1 /* Pods_AkharinKhabar.framework */,
+				BF5DF343B514A4E2D5BF8976 /* Pods_AkharinKhabarTests.framework */,
+				4A1B237BE2515C0B6BD50F79 /* Pods_AkharinKhabarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1593159216533AB00AF8C00 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C1E143AD2165689E005E1922 /* IRANSansMobile.otf */,
+				C1D1280B216532FC0062C757 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C159315A216533BF00AF8C00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C1D12806216532F90062C757 /* NewsPhotoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C159315B216533C900AF8C00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1439221655BF5005E1922 /* NewsPhotoView.swift */,
+				C1E1439421655C19005E1922 /* NewsPhotoCollectionView.swift */,
+				C1E1439621655C35005E1922 /* NewsPhotoCollectionViewCell.swift */,
+				C1E1439821655C4F005E1922 /* NewsPhotoCollectionViewDelegate.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C159315C216533CD00AF8C00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C159315E2165385E00AF8C00 /* NewsPhoto.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C159315D216533CF00AF8C00 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				C1D12810216532FC0062C757 /* Info.plist */,
+				C1D12804216532F90062C757 /* AppDelegate.swift */,
+				C1E1438421653E83005E1922 /* Config.swift */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		C159316921653D2E00AF8C00 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C159316B21653D6600AF8C00 /* BaseNetwork.swift */,
+				C113C150216A107C00321307 /* Preloader.swift */,
+				C1E143C821657800005E1922 /* DVPImageView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C1D127F8216532F90062C757 = {
+			isa = PBXGroup;
+			children = (
+				C1D12803216532F90062C757 /* AkharinKhabar */,
+				C1D12818216532FC0062C757 /* AkharinKhabarTests */,
+				C1D12823216532FC0062C757 /* AkharinKhabarUITests */,
+				C1D12802216532F90062C757 /* Products */,
+				EDE5C9E11A093A5287D7CA58 /* Pods */,
+				6ECB549B6DADCD90C62279F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1D12802216532F90062C757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1D12801216532F90062C757 /* AkharinKhabar.app */,
+				C1D12815216532FC0062C757 /* AkharinKhabarTests.xctest */,
+				C1D12820216532FC0062C757 /* AkharinKhabarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1D12803216532F90062C757 /* AkharinKhabar */ = {
+			isa = PBXGroup;
+			children = (
+				C159315D216533CF00AF8C00 /* AppMain */,
+				C1E1438F21655B33005E1922 /* Extension */,
+				C159316921653D2E00AF8C00 /* Base */,
+				C1593159216533AB00AF8C00 /* Resources */,
+				C159315C216533CD00AF8C00 /* Model */,
+				C159315B216533C900AF8C00 /* View */,
+				C159315A216533BF00AF8C00 /* Controller */,
+				C1D12808216532F90062C757 /* Main.storyboard */,
+				C1D1280D216532FC0062C757 /* LaunchScreen.storyboard */,
+			);
+			path = AkharinKhabar;
+			sourceTree = "<group>";
+		};
+		C1D12818216532FC0062C757 /* AkharinKhabarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D12819216532FC0062C757 /* AkharinKhabarTests.swift */,
+				C1D1281B216532FC0062C757 /* Info.plist */,
+			);
+			path = AkharinKhabarTests;
+			sourceTree = "<group>";
+		};
+		C1D12823216532FC0062C757 /* AkharinKhabarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1D12824216532FC0062C757 /* AkharinKhabarUITests.swift */,
+				C1D12826216532FD0062C757 /* Info.plist */,
+			);
+			path = AkharinKhabarUITests;
+			sourceTree = "<group>";
+		};
+		C1E1438F21655B33005E1922 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C1E1439021655B41005E1922 /* String.swift */,
+				C1E1439A216563AB005E1922 /* UILabel.swift */,
+				C1E1439C2165644F005E1922 /* UIFont.swift */,
+				C1E143A021656652005E1922 /* UIColor.swift */,
+				C1E143D321658067005E1922 /* DispatchQueue.swift */,
+				C113C1492169F98700321307 /* UIViewController.swift */,
+				C113C14E216A0A4B00321307 /* UIButton.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EDE5C9E11A093A5287D7CA58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F005EC4508DE426C908B77DD /* Pods-AkharinKhabar.debug.xcconfig */,
+				32FBE48C982A93B0A0AF3F3D /* Pods-AkharinKhabar.release.xcconfig */,
+				A72BF42226964D144D17B049 /* Pods-AkharinKhabarTests.debug.xcconfig */,
+				6D082415EF18042FDDFA4DAF /* Pods-AkharinKhabarTests.release.xcconfig */,
+				FA587FE00FEC6514797D583C /* Pods-AkharinKhabarUITests.debug.xcconfig */,
+				45226F7129C4995861401AB0 /* Pods-AkharinKhabarUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1D12800216532F90062C757 /* AkharinKhabar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D12829216532FD0062C757 /* Build configuration list for PBXNativeTarget "AkharinKhabar" */;
+			buildPhases = (
+				69E78A78D36849290843C1F0 /* [CP] Check Pods Manifest.lock */,
+				C1D127FD216532F90062C757 /* Sources */,
+				C1D127FE216532F90062C757 /* Frameworks */,
+				C1D127FF216532F90062C757 /* Resources */,
+				01DD7AC5C643A61D17D5242B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AkharinKhabar;
+			productName = AkharinKhabar;
+			productReference = C1D12801216532F90062C757 /* AkharinKhabar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1D12814216532FC0062C757 /* AkharinKhabarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D1282C216532FD0062C757 /* Build configuration list for PBXNativeTarget "AkharinKhabarTests" */;
+			buildPhases = (
+				3ED7402E215C6D982E36EE26 /* [CP] Check Pods Manifest.lock */,
+				C1D12811216532FC0062C757 /* Sources */,
+				C1D12812216532FC0062C757 /* Frameworks */,
+				C1D12813216532FC0062C757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D12817216532FC0062C757 /* PBXTargetDependency */,
+			);
+			name = AkharinKhabarTests;
+			productName = AkharinKhabarTests;
+			productReference = C1D12815216532FC0062C757 /* AkharinKhabarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1D1281F216532FC0062C757 /* AkharinKhabarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1D1282F216532FD0062C757 /* Build configuration list for PBXNativeTarget "AkharinKhabarUITests" */;
+			buildPhases = (
+				C50E5AF1C49A0F13F89D5B2B /* [CP] Check Pods Manifest.lock */,
+				C1D1281C216532FC0062C757 /* Sources */,
+				C1D1281D216532FC0062C757 /* Frameworks */,
+				C1D1281E216532FC0062C757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1D12822216532FC0062C757 /* PBXTargetDependency */,
+			);
+			name = AkharinKhabarUITests;
+			productName = AkharinKhabarUITests;
+			productReference = C1D12820216532FC0062C757 /* AkharinKhabarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1D127F9216532F90062C757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Mohammad Davarpanah";
+				TargetAttributes = {
+					C1D12800216532F90062C757 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C1D12814216532FC0062C757 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C1D12800216532F90062C757;
+					};
+					C1D1281F216532FC0062C757 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C1D12800216532F90062C757;
+					};
+				};
+			};
+			buildConfigurationList = C1D127FC216532F90062C757 /* Build configuration list for PBXProject "AkharinKhabar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1D127F8216532F90062C757;
+			productRefGroup = C1D12802216532F90062C757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1D12800216532F90062C757 /* AkharinKhabar */,
+				C1D12814216532FC0062C757 /* AkharinKhabarTests */,
+				C1D1281F216532FC0062C757 /* AkharinKhabarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1D127FF216532F90062C757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D1280F216532FC0062C757 /* LaunchScreen.storyboard in Resources */,
+				C1D1280C216532FC0062C757 /* Assets.xcassets in Resources */,
+				C1E143AE2165689E005E1922 /* IRANSansMobile.otf in Resources */,
+				C1D1280A216532F90062C757 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D12813216532FC0062C757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D1281E216532FC0062C757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01DD7AC5C643A61D17D5242B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+				"${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parchment.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ED7402E215C6D982E36EE26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AkharinKhabarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69E78A78D36849290843C1F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AkharinKhabar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50E5AF1C49A0F13F89D5B2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AkharinKhabarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1D127FD216532F90062C757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E1439121655B41005E1922 /* String.swift in Sources */,
+				C1D12807216532F90062C757 /* NewsPhotoViewController.swift in Sources */,
+				C113C14A2169F98700321307 /* UIViewController.swift in Sources */,
+				C159316C21653D6600AF8C00 /* BaseNetwork.swift in Sources */,
+				C1E1439B216563AB005E1922 /* UILabel.swift in Sources */,
+				C1E1439921655C4F005E1922 /* NewsPhotoCollectionViewDelegate.swift in Sources */,
+				C113C14F216A0A4B00321307 /* UIButton.swift in Sources */,
+				C1E143C921657800005E1922 /* DVPImageView.swift in Sources */,
+				C1E1439721655C35005E1922 /* NewsPhotoCollectionViewCell.swift in Sources */,
+				C1E1439321655BF5005E1922 /* NewsPhotoView.swift in Sources */,
+				C159315F2165385E00AF8C00 /* NewsPhoto.swift in Sources */,
+				C1E143D421658067005E1922 /* DispatchQueue.swift in Sources */,
+				C113C151216A107C00321307 /* Preloader.swift in Sources */,
+				C1E1439D2165644F005E1922 /* UIFont.swift in Sources */,
+				C1E143A121656652005E1922 /* UIColor.swift in Sources */,
+				C1D12805216532F90062C757 /* AppDelegate.swift in Sources */,
+				C1E1439521655C19005E1922 /* NewsPhotoCollectionView.swift in Sources */,
+				C1E1438521653E83005E1922 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D12811216532FC0062C757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D1281A216532FC0062C757 /* AkharinKhabarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D1281C216532FC0062C757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D12825216532FC0062C757 /* AkharinKhabarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1D12817216532FC0062C757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D12800216532F90062C757 /* AkharinKhabar */;
+			targetProxy = C1D12816216532FC0062C757 /* PBXContainerItemProxy */;
+		};
+		C1D12822216532FC0062C757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1D12800216532F90062C757 /* AkharinKhabar */;
+			targetProxy = C1D12821216532FC0062C757 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1D12808216532F90062C757 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D12809216532F90062C757 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1D1280D216532FC0062C757 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1D1280E216532FC0062C757 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1D12827216532FD0062C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1D12828216532FD0062C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1D1282A216532FD0062C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F005EC4508DE426C908B77DD /* Pods-AkharinKhabar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D7652D65G;
+				INFOPLIST_FILE = "$(SRCROOT)/AkharinKhabar/AppMain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.signDEsign.AkharinKhabar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1D1282B216532FD0062C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FBE48C982A93B0A0AF3F3D /* Pods-AkharinKhabar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D7652D65G;
+				INFOPLIST_FILE = "$(SRCROOT)/AkharinKhabar/AppMain/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.signDEsign.AkharinKhabar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1D1282D216532FD0062C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72BF42226964D144D17B049 /* Pods-AkharinKhabarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D7652D65G;
+				INFOPLIST_FILE = AkharinKhabarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.signDEsign.AkharinKhabarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkharinKhabar.app/AkharinKhabar";
+			};
+			name = Debug;
+		};
+		C1D1282E216532FD0062C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D082415EF18042FDDFA4DAF /* Pods-AkharinKhabarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D7652D65G;
+				INFOPLIST_FILE = AkharinKhabarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.signDEsign.AkharinKhabarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkharinKhabar.app/AkharinKhabar";
+			};
+			name = Release;
+		};
+		C1D12830216532FD0062C757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA587FE00FEC6514797D583C /* Pods-AkharinKhabarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D7652D65G;
+				INFOPLIST_FILE = AkharinKhabarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.signDEsign.AkharinKhabarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AkharinKhabar;
+			};
+			name = Debug;
+		};
+		C1D12831216532FD0062C757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45226F7129C4995861401AB0 /* Pods-AkharinKhabarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8D7652D65G;
+				INFOPLIST_FILE = AkharinKhabarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.signDEsign.AkharinKhabarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AkharinKhabar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1D127FC216532F90062C757 /* Build configuration list for PBXProject "AkharinKhabar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D12827216532FD0062C757 /* Debug */,
+				C1D12828216532FD0062C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D12829216532FD0062C757 /* Build configuration list for PBXNativeTarget "AkharinKhabar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D1282A216532FD0062C757 /* Debug */,
+				C1D1282B216532FD0062C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D1282C216532FD0062C757 /* Build configuration list for PBXNativeTarget "AkharinKhabarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D1282D216532FD0062C757 /* Debug */,
+				C1D1282E216532FD0062C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1D1282F216532FD0062C757 /* Build configuration list for PBXNativeTarget "AkharinKhabarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1D12830216532FD0062C757 /* Debug */,
+				C1D12831216532FD0062C757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1D127F9216532F90062C757 /* Project object */;
+}

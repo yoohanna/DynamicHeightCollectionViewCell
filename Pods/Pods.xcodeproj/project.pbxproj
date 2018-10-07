@@ -1,0 +1,2171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B31E5E2AB4E3B30E8FFD77A973C31E /* Pods-AkharinKhabarTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE17911A13A6C7FFDC67BF3EBDFC3EA /* Pods-AkharinKhabarTests-dummy.m */; };
+		040CF5E9F66DFFB1EB661B87EE74283E /* PagingInvalidationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899509099E892D3D579872883169A873 /* PagingInvalidationContext.swift */; };
+		051CD4C4904647835BA5CEA60B719CED /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E439057C1D42291779E08948B9353F7F /* SWXMLHash+TypeConversion.swift */; };
+		0A139D4D427C48C794556CAC29B383A4 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAE005DABCBDF94E30B14366DABDE1C /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		0E5D53D9B25F06D67C66AFC249217167 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2824E130C8B082F4297D533126795A /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		0FFAACCB89F9F211E6FC41F3C9D1424E /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A817AB9EE694AAA1BF1F2B0FAC5B496 /* UIEdgeInsets.swift */; };
+		10571C01FBAD86D3B145C18ABC1CDEF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		115C48F6E7A4D41F75A43197C421B94B /* PagingEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160BF3C9AD2048A0D72FE64AC25398B2 /* PagingEvent.swift */; };
+		11797F83B5509D2E660C024EB62DA301 /* DataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E49B93A033F851D43F5BA768CB3FB29 /* DataCache.swift */; };
+		11D9E3934EB7DFDC66E6582653226388 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		14F1704EE9E61D3B75DC8CB45678BDC6 /* PagingMenuHorizontalAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59DBD0D9D246E550D346099957BED7C /* PagingMenuHorizontalAlignment.swift */; };
+		1905EF0872D7E2B15B3C981DAAE21777 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */; };
+		1D3EFD7461E1E1971DEF846A978A471F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD35EC475B98A642901ABFFBF5028A2F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		1DF1E30A4692124856D09A72364D128B /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542D00171F23CF650F4EF42719164440 /* NVActivityIndicatorAnimationPacman.swift */; };
+		1F4B9B0DE215ABCE08E24141E064AFB1 /* ImageDecoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFF99DF3B31510F58C75D64CB604F3F /* ImageDecoding.swift */; };
+		1F69C6F84C83E3F4FAAA2AB194EF242F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52D9BF9277DE4AA11B37B4EB736BFDB /* SessionDelegate.swift */; };
+		1FE208F00C26A4029AE661E62271F565 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED4B88E6DCA956FE8F1B85E77A4D1B7 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		21A746823ED5C0650D548166BD157049 /* PagingIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E664CD714E77FF4F7283CD785E05EA12 /* PagingIndicatorOptions.swift */; };
+		21DBD31E5E4D20CB5BC7EF7C58F37F07 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A43650DE91D5202161DC6400ADAEB532 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		237BC767BC2DF9E460373B563DDDA61C /* Tween.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB0892289CE95DD83EC86095F443EDD /* Tween.swift */; };
+		25FC1FA2A370D3596A17B7EB208D3408 /* PagingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35168581BC1F495DFAFA07C3BADA51D0 /* PagingStateMachine.swift */; };
+		2ED6729FBAF1F64B926DF4814C60B616 /* Pods-AkharinKhabarTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FFACD412D12E9AA04141378B31915A1 /* Pods-AkharinKhabarTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FB9E083FDBEC11ABBA21A7CE566D1F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC5124F853FD66DC2BD20120DB10F76 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		305642BDCA9CBB1DECAD600EF8B9875F /* IndexedPagingDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E595701C9B316654A06D81480E67FB /* IndexedPagingDataSource.swift */; };
+		3150C1B9BA946B498A77AEB3D89E83BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		328202BD68F6D4F15608D3CB4E4E1402 /* ImagePreheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BC749A470C27574C20AA1219D95277 /* ImagePreheater.swift */; };
+		32C15478A1FA55680F1436387E5094B9 /* SWXMLHash-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DC9186AB64F951E0E573E08E698347 /* SWXMLHash-dummy.m */; };
+		33881CB00881CC988B846485D610E933 /* UIView+constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166BC09A1A90785618AB3AC5EF036C88 /* UIView+constraints.swift */; };
+		35587AC3EBC61397EC006179588D27E6 /* IndexedPagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9657950E2E2C91F2C04483FD47C99C9C /* IndexedPagingItem.swift */; };
+		35ADB3A8754FC4D6B396A3FEA914432D /* PagingMenuInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D48385D19F3AEDFD521ABEE9C6F706 /* PagingMenuInteraction.swift */; };
+		36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB1261A44125864BCD9B51321B4FDD /* TaskDelegate.swift */; };
+		3B11083900FCF34FBF57B21AF548BFC7 /* PagingViewControllerInfiniteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E7F5A94632096CF985CB367D3F798 /* PagingViewControllerInfiniteDataSource.swift */; };
+		413C67DCC7C16CD3752647D9509E5E10 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0514B0FCFC780CF5AA8E2BAEC5CE4BE6 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		452F8C79F4B72A53D1ADB433D9ECF898 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5740C5416998F1938C1B7652666259 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		46B10DD9F60F03BCE3DBCCF81465A1ED /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78ED10EADAA5C5BEC14FF3E745B4F35F /* Deprecated.swift */; };
+		46BB897B41F7EE5027AB7F30AB13A7A7 /* PagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05774D230F445FBA3F05CAB7886836B0 /* PagingViewController.swift */; };
+		497D720532E5A0BECB6C9D82146BD2F3 /* PagingViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7371C53FC76986E8D9F97B925BA94A8 /* PagingViewControllerDelegate.swift */; };
+		4B56C8BCF59D41ACFA09CBA3D1508678 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADDC78BEE35B90752E4879AB9F4386D /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		4C81D0661D71E5BD00F4094822B6CF8D /* PagingIndicatorLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212FB857417E21BF5475F2D8E2113254 /* PagingIndicatorLayoutAttributes.swift */; };
+		4D1152EBA45C12D8B6D34BB76468331F /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED74F631334441BF162CB87461B8BB62 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4554B35C7609836BE61AE877EFA82BDF /* Alamofire.swift */; };
+		4E22F2F1F4DD7F0EFB2CD093FBCAA884 /* NVActivityIndicatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5BF46A9301C49CE36875F7280F2DB /* NVActivityIndicatorPresenter.swift */; };
+		4E4C5AFE1AEAF1B59DB4A96630A4F76E /* PagingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F9A45CBD300F11E81BCAA207BC8645 /* PagingOptions.swift */; };
+		500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004449019076C4DF54CB6C12C687E1C0 /* Notifications.swift */; };
+		52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDFCD526AE5EEDE2BADE8E126F6EEBA /* Response.swift */; };
+		57576563140BA1551FB009A758B44B2A /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0596D26A61AB7B2AFCE6984C562990 /* NVActivityIndicatorShape.swift */; };
+		58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932D8011537F8F0B4FAAEE85A38AAA5 /* Validation.swift */; };
+		596AD89AC2609AA8A572B9258B0AE7E9 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE2A95D0E46A97298498548FF4026FF /* Internal.swift */; };
+		5B02D0281B315102A9FA3EDFA7FF8551 /* PagingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FD45A63ED3E36A04D4CC7DABEFA0EB /* PagingTitleCell.swift */; };
+		5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFF6DA48D04D11BAAD672DDACA52FD9 /* ResponseSerialization.swift */; };
+		5F4F9EC94386AA35404CCC9A3E7C9009 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */; };
+		5F9421A709A1D187E53E758C9677AC36 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25AA8B56D223F3998F9E6089573C42C /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		60D2C30E524BA87E8B99DEF7C8421890 /* Nuke-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E568C40259F41B76DFFB805E911B1A0 /* Nuke-dummy.m */; };
+		63BCD85682BD9EC6D1CAED0DEC2CDD61 /* PagingMenuItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5479B16F8220DAA9098C364BC1FD5ED9 /* PagingMenuItemSource.swift */; };
+		67289CCF25752B1384EBA56C59DCB158 /* PagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E779C246E76E481183FBAC7E3694EEAF /* PagingLayout.swift */; };
+		67A20C6147D40001A9378288FEEB8AB1 /* Pods-AkharinKhabar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACF4A820FEAC465A618EB2D37BDE29FB /* Pods-AkharinKhabar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6B0DF238DD967BB1FEE401540B62E377 /* InvalidationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E764712076E9828FD27066D1CFAE6B4 /* InvalidationState.swift */; };
+		6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FB175E3F76427AB7B6BCA3FB68097 /* ServerTrustPolicy.swift */; };
+		6DF3B58EAB568FAAF37B84548D877D0E /* PagingBorderOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE77322A7E6D29469DA1F4F028520 /* PagingBorderOptions.swift */; };
+		6E50E42F7D3D0A40EB84A184EE89CAE5 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F69D42F88B448CEADDDA22987CBD5A /* NVActivityIndicatorView-dummy.m */; };
+		7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722C59D3C28F827DECD60B9110D387F /* SessionManager.swift */; };
+		724E2111CBA9EE612C0F7EA0D96C79C0 /* UIColor+interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4868FF5CD09D8A730DB66C9D757713F2 /* UIColor+interpolation.swift */; };
+		76F10269ADEC41D420B047F727216846 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D163A5820F4BE7F507D941780D867201 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		79451235EE2431ECC4EF3D055BCE19DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51830C90B535A9E46B86085830DA7CD3 /* ParameterEncoding.swift */; };
+		7AD7DD8B99ADE915E1B18E5D9EC04EF2 /* PagingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59A7D63AF65BBB52E036EBD8AF2BBB4 /* PagingState.swift */; };
+		7BE07E1ADAE87C3EEB4C50B2F248C237 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448BCC27F725F68A944BB3FAEDB6AA9B /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		7DB71FE3C08FEFD26720E68B4E8923E2 /* ImageTaskMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC01E6AD125CC3E9341E89FB83D72EB4 /* ImageTaskMetrics.swift */; };
+		7F29B02C331B6372F256367ADF3AF831 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92105A0D0A7C026B6E3A40187736A939 /* ImageView.swift */; };
+		7FDC64860FB6713E2983E827DB29F252 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D11E0FE72DC7FA491C3D3389F67FAD /* NVActivityIndicatorView.swift */; };
+		849059FE75BE960C5E768F5F1F5E11F5 /* Parchment-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8470F163D973E0A975D6EEF10506000 /* Parchment-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84ED63C5A1DC2064BACCE6F212E1C77F /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAB66A58526AAD17DF771F4566C227D /* NVActivityIndicatorAnimationLineScale.swift */; };
+		85B9B06515A80E0EAEA674A9F39DDD97 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAFA3E42E55A92982EF929902A231B7 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		861F309488ECE4C06C48372DB6A4909E /* PagingViewControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D901922D5D8413CBBE2722A4657EA13C /* PagingViewControllerDataSource.swift */; };
+		865A28104453FBC6B46A470CBFDE67B7 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7F52CF29669715A36DC4FC427FDB0A /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		8B0C9E592B060DB005333B7F561F9085 /* PagingContentInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FF3E5ECB3F34DFE35A2462842E5F38 /* PagingContentInteraction.swift */; };
+		8C385CD19178C9E76B77C96173ACAF99 /* PagingDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466ACA174EEB8D9E18C1281726C4191D /* PagingDirection.swift */; };
+		8DC6672C40454834AE4272B9A17E397A /* PagingTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D686BBC53B7AFD566926A99BDF630 /* PagingTransition.swift */; };
+		9022457B37A68BC0E222ED9263BDB0AA /* Pods-AkharinKhabarUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 608A879DDC5B0770D693A7EFD944854C /* Pods-AkharinKhabarUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93E1E95417192106C93DF616AA5E4F24 /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BDF6E740313445E3B41A41D22EB239 /* ImagePipeline.swift */; };
+		965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2A975AFBEEF895BAC43DBCBA77446 /* Request.swift */; };
+		9ABC3D637FE6A8652428721437E5107D /* PagingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE52897D488DF6A8F2D93091C1C89D9 /* PagingCell.swift */; };
+		9CB8DCDF79110D54F47803718BFFBF36 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BCB55631A245575AD27AE1933A7775 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		9D4C19E5BB6FE49AD40FF04F1BAC49F5 /* Pods-AkharinKhabarUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3EE8DCA591897EB859482BE67CC215 /* Pods-AkharinKhabarUITests-dummy.m */; };
+		9E8B683192D4428C9A572974FF08BFBD /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDD1D4754007B236569CDD349FD498E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		9EAECA3152165F1577E4B7ADC967D7E2 /* PagingBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCED53A8226835B798BBAC5929B3D86 /* PagingBorderView.swift */; };
+		9FC2CF984680C0C89CBBB9D1210A1AD5 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7911246FE3F461F296B008E1E488A3D4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		A06DE4125460931D125C790668915DAB /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0A511C56C34F5C339F0F134ED5556 /* ImageCache.swift */; };
+		A2CB8DC37BA304102830E38F7C9561E0 /* SWXMLHash-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EDC3699C9B6FC8B5E96B916A288265F /* SWXMLHash-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A32F8519FC9D7FF5D67AA4DFB3B43F0D /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CF6CEABC05151BD46ABC4F24142AC /* DataLoader.swift */; };
+		A3802F7712A3EA10686C46D66765E991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		A468DDA384DA2DBA8088B9F59F0BDB07 /* PagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F2267D8D44733A7F02F72A37FB1F6 /* PagingView.swift */; };
+		A9CDC49BCA042677979B128247F3DE11 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016331AED8EFF70F946E76DEA606C160 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		AA4C499288329DE4E6C5ADFAD5879129 /* EMPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88757CC56E35EA5BA29ABDEA7A7A3EB8 /* EMPageViewController.swift */; };
+		AA6E19FC964E3A8165409E4942DE5C8F /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1F1DF6778CEF380EFF418751AD94F /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		AABF3BCE05B262749DC13C63BA01E735 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713F856C80E47998764B38B5870554ED /* NVActivityIndicatorAnimationOrbit.swift */; };
+		ACFEA50550CF46BB81184FED29E79AA8 /* PagingDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5997050DDB32F0DD65B9B18A05C7E /* PagingDistance.swift */; };
+		ADE58A9D48E9575808D085DD1BBCF489 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178226F33E028B632CFBDC786D0FF632 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		AE93265B07C7219AD96DDFE48492C24B /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605B0157651B40894578AD884F303817 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		AECF2D77E30D65EAA2FF5182AF2A8022 /* PagingIndicatorMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B005C4B8DE07157E85AD91F7BFA502 /* PagingIndicatorMetric.swift */; };
+		B034BD712510938BC918F1EE710E5BDC /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6363D56A8657F40FA23BB5A7899C58 /* SWXMLHash.swift */; };
+		B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2374F0FC74F909C10736FBAF2F6070C /* Timeline.swift */; };
+		B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507A83A5B06DBEAE3A9758A8664993CD /* NetworkReachabilityManager.swift */; };
+		BB68AD439B6FDADD9DC5FC6FF2DDCA19 /* PagingMenuItemSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA893E08300357535E26E55FEF341F7E /* PagingMenuItemSize.swift */; };
+		BD15DF91AE57EB1F370CDEF36C8B2B57 /* PagingSelectedScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72676D07988C2A67476D58BA198C8A5 /* PagingSelectedScrollPosition.swift */; };
+		BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35310E3BF508B22787EC36FBC83AE5ED /* AFError.swift */; };
+		BFF195916DC851D5A802701F952A21FA /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B0AC9E49FD92DE9C0BD4DBB1981B8AD /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		C0838EBCCBB64439D18D650C71A97332 /* ImageProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAF413D44ABE018DCF004298F7B2C8F /* ImageProcessing.swift */; };
+		C4D090287044EC661E3E9DA812D456D7 /* PagingCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AD41C9B1236EFA773CD52709CA6B4D /* PagingCellViewModel.swift */; };
+		C70585DBDBE9171521A33BA5F6F37A50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		C8440020DD40FD90360AEAD391FF100A /* PagingBorderLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F928619E6F6C87AC39C946DB599EC3FC /* PagingBorderLayoutAttributes.swift */; };
+		C97F9D1DD73485943230B467741FB91F /* Pods-AkharinKhabar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD6B14C83B77A3EC359EEC03EC0C60F /* Pods-AkharinKhabar-dummy.m */; };
+		CADD3B9635076B07A7BF621E3CA992C7 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE7CB15C2E0AC6117B8D6A75C675C06 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		CF4532A6ADF8ACC2E8095BA4805CE268 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A87EDF4B5BAB2EF45FD3362587C3D28 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		CF83E8EA00172B69228627CBE2B26480 /* PagingCellLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DF2ADB4495480E33D588F0C377E76D /* PagingCellLayoutAttributes.swift */; };
+		D0C85BA21609CAABE7CC2DA80537F071 /* ImageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976BD46442235FA5293B502F47005C8D /* ImageRequest.swift */; };
+		D2C73A4E5B799810A599AB2E7CCCB79D /* PagingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FD4F82987DF4C10DDE22329F0F386E /* PagingCollectionViewLayout.swift */; };
+		D35B4AC4E9A2568EB59E88CAECDD14E9 /* UIScrollView+near.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B906A2954A0342739D724DDF9BDDB9 /* UIScrollView+near.swift */; };
+		D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC36E18558F53FC8A797AB4457E79DF /* Alamofire-dummy.m */; };
+		D545287F11A4DE8A7A0ADE9B5BAA9B78 /* Parchment-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8385640BD8E74AD203B6426B3B03195 /* Parchment-dummy.m */; };
+		D54E90B920438E7867DA9621EE51437C /* PagingDiff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A563173F87D9C882FC99C2C332364E /* PagingDiff.swift */; };
+		D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */; };
+		DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = BECB2E680CC56547E0391BEF10B0C896 /* DispatchQueue+Alamofire.swift */; };
+		DDA00B6AB4E1C59251B98A712FC1FC39 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9784712B64F6E41979E52C37404F70FB /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		DE2F08C01A67FE0A8FD4FBD93B74AA0D /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F6EADF7C4861F2AF9B8FED98839B95F /* NVActivityIndicatorAnimationBlank.swift */; };
+		DFCA37589015B5A5F6A11E61360ED39A /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA28F12C90B6AC6EC2075F29AFEDCFF /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		E15BFBF4E2183798706DC34E5FBC8ABF /* PagingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C0D320FD6294EF52AD9A9E5802B310 /* PagingItems.swift */; };
+		E611E95AB87D70E1ED164F314814487F /* PagingSizeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C4A96E76E167799416EC1DA1FE1A9 /* PagingSizeCache.swift */; };
+		E6DE5E8343B97E2ED853562D2393060B /* PagingMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37383D6B15533713EBCB37172B3489B2 /* PagingMenuTransition.swift */; };
+		E7986B9FC27E1B62BD5F19230BF12E83 /* shim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1689C199E9388C1461DA728913F005DC /* shim.swift */; };
+		EB7BFFA3716D6306AEB167A4573C89FB /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C18BD783129AEDDFC6CD010D88EF9 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C79F8DA769AF43C54290EA4D90DF79 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF48603C8197309D96FEED43E658587F /* PagingIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9772DD10CE1C9619DB50BDCFE16A503B /* PagingIndicatorView.swift */; };
+		EF558A1A772E92D1F926B2716891C0E1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3478BD2DC9E9361088D0C6FEF4280B1B /* NVActivityIndicatorAnimationDelegate.swift */; };
+		F6296B1247C59D220FE18CD73CAD7978 /* FixedPagingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830425EF195999357A7F7C45FB984F6C /* FixedPagingViewController.swift */; };
+		F7C0529D2A2330B61948C0D0D67E56AB /* NVActivityIndicatorViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F883FC0621F437D2FFDE2919039D84 /* NVActivityIndicatorViewable.swift */; };
+		F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15136119477F6606FC9397F502B7A5B1 /* Result.swift */; };
+		FB8B89E77754777FCEB39ECABE282BEC /* PagingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749FAED4FB8774132056ACD30FCC1B8B /* PagingItem.swift */; };
+		FBCBDF9643A7D34A27F68D2632329E65 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D1CB44C027EBC4F7F07775E293EDB0 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		FEC29D6FEB3EBDBAA11FB2FC3371A503 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FF03723864A9489D1EE123773AF509A /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEF92F1640BF620797FA567C13F165C9 /* Nuke-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99584B3E298E04BED3FB8ED5CA879F54 /* Nuke-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180B8F133BFC97CEDC8452EC2AC8195E /* MultipartFormData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E63ECEC1D82B39AA7D3FA7C7B8E1421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6524EAA476D9FB79EA32DAE31DCD98;
+			remoteInfo = "Pods-AkharinKhabar";
+		};
+		4FE12078E11323C687E39B43A97A26DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 048FDB8514EE7F659053CD9E95CE5160;
+			remoteInfo = Parchment;
+		};
+		5089D398E6B962F39886321960CB0A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 978D35F2E84D7D745602FFB2E17B1021;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		706FEF9B4D5D63F52B1C57F5C277B54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97C73A22793E64AE30BA54FA57682B3;
+			remoteInfo = SWXMLHash;
+		};
+		BB1ABD2D7743CD518AEFED69D6D9F67C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB6524EAA476D9FB79EA32DAE31DCD98;
+			remoteInfo = "Pods-AkharinKhabar";
+		};
+		ECA6C437EC29CA735534FF705A0B0541 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E76458C58C9140B6A16D60547E68E80C;
+			remoteInfo = Alamofire;
+		};
+		F93B21C693C2AE6923DD37199F638B69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42B95F4ED4978CA37B02F88E100B0A31;
+			remoteInfo = Nuke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004449019076C4DF54CB6C12C687E1C0 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		016331AED8EFF70F946E76DEA606C160 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		021387FE84AD83CE6448D3601094C318 /* Pods-AkharinKhabarTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AkharinKhabarTests-Info.plist"; sourceTree = "<group>"; };
+		04B005C4B8DE07157E85AD91F7BFA502 /* PagingIndicatorMetric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorMetric.swift; path = Parchment/Structs/PagingIndicatorMetric.swift; sourceTree = "<group>"; };
+		0514B0FCFC780CF5AA8E2BAEC5CE4BE6 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		05774D230F445FBA3F05CAB7886836B0 /* PagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewController.swift; path = Parchment/Classes/PagingViewController.swift; sourceTree = "<group>"; };
+		07B906A2954A0342739D724DDF9BDDB9 /* UIScrollView+near.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+near.swift"; path = "Parchment/Extensions/UIScrollView+near.swift"; sourceTree = "<group>"; };
+		08BD0304836D846710E306941B181D97 /* Pods-AkharinKhabarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AkharinKhabarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0A3FBAB00F697F2F885AC31DEE3CB7F6 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		0A5740C5416998F1938C1B7652666259 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		0AAFA3E42E55A92982EF929902A231B7 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		0B0AC9E49FD92DE9C0BD4DBB1981B8AD /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		0DBCD27D71938F298745183B1D57E3D6 /* Nuke-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Nuke-Info.plist"; sourceTree = "<group>"; };
+		0FA5AA4E28F0E70D54DB5E30593A66BE /* Parchment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Parchment.framework; path = Parchment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15136119477F6606FC9397F502B7A5B1 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		15DF2ADB4495480E33D588F0C377E76D /* PagingCellLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellLayoutAttributes.swift; path = Parchment/Classes/PagingCellLayoutAttributes.swift; sourceTree = "<group>"; };
+		160BF3C9AD2048A0D72FE64AC25398B2 /* PagingEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingEvent.swift; path = Parchment/Enums/PagingEvent.swift; sourceTree = "<group>"; };
+		166BC09A1A90785618AB3AC5EF036C88 /* UIView+constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+constraints.swift"; path = "Parchment/Extensions/UIView+constraints.swift"; sourceTree = "<group>"; };
+		1684829BAAC892D2516F9B1AA2EEA19C /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1689C199E9388C1461DA728913F005DC /* shim.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = shim.swift; path = Source/shim.swift; sourceTree = "<group>"; };
+		178226F33E028B632CFBDC786D0FF632 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		180B8F133BFC97CEDC8452EC2AC8195E /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		1ADDC78BEE35B90752E4879AB9F4386D /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		1D1EED1E5794836B08512B3772BBE1AA /* Pods-AkharinKhabarTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AkharinKhabarTests.modulemap"; sourceTree = "<group>"; };
+		203C610953886E149ED22063683EBA48 /* Nuke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Nuke.framework; path = Nuke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		212FB857417E21BF5475F2D8E2113254 /* PagingIndicatorLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorLayoutAttributes.swift; path = Parchment/Classes/PagingIndicatorLayoutAttributes.swift; sourceTree = "<group>"; };
+		25D48385D19F3AEDFD521ABEE9C6F706 /* PagingMenuInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuInteraction.swift; path = Parchment/Enums/PagingMenuInteraction.swift; sourceTree = "<group>"; };
+		26F9A45CBD300F11E81BCAA207BC8645 /* PagingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingOptions.swift; path = Parchment/Classes/PagingOptions.swift; sourceTree = "<group>"; };
+		2799B8346C90B780ED3029D0161275B1 /* Parchment-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Parchment-Info.plist"; sourceTree = "<group>"; };
+		2A817AB9EE694AAA1BF1F2B0FAC5B496 /* UIEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIEdgeInsets.swift; path = Parchment/Extensions/UIEdgeInsets.swift; sourceTree = "<group>"; };
+		2FF03723864A9489D1EE123773AF509A /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		31CD52129D4EF5C62251155908DDF165 /* Pods-AkharinKhabar-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AkharinKhabar-frameworks.sh"; sourceTree = "<group>"; };
+		3478BD2DC9E9361088D0C6FEF4280B1B /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		35168581BC1F495DFAFA07C3BADA51D0 /* PagingStateMachine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingStateMachine.swift; path = Parchment/Classes/PagingStateMachine.swift; sourceTree = "<group>"; };
+		35310E3BF508B22787EC36FBC83AE5ED /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		37383D6B15533713EBCB37172B3489B2 /* PagingMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuTransition.swift; path = Parchment/Enums/PagingMenuTransition.swift; sourceTree = "<group>"; };
+		39FBEDA1B5462B1BAD6BFAE8DA9F6CF2 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		3D4FB175E3F76427AB7B6BCA3FB68097 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		3EDC3699C9B6FC8B5E96B916A288265F /* SWXMLHash-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-umbrella.h"; sourceTree = "<group>"; };
+		3FE2A95D0E46A97298498548FF4026FF /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/Internal.swift; sourceTree = "<group>"; };
+		448BCC27F725F68A944BB3FAEDB6AA9B /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		4554B35C7609836BE61AE877EFA82BDF /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		45A65D08BF6CAFC366AE14EBC1F07306 /* Pods-AkharinKhabarTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AkharinKhabarTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		466ACA174EEB8D9E18C1281726C4191D /* PagingDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDirection.swift; path = Parchment/Enums/PagingDirection.swift; sourceTree = "<group>"; };
+		4868FF5CD09D8A730DB66C9D757713F2 /* UIColor+interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+interpolation.swift"; path = "Parchment/Extensions/UIColor+interpolation.swift"; sourceTree = "<group>"; };
+		4B514A78D5A83C5ECFCE4D31FD714882 /* SWXMLHash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SWXMLHash.framework; path = SWXMLHash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE17911A13A6C7FFDC67BF3EBDFC3EA /* Pods-AkharinKhabarTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AkharinKhabarTests-dummy.m"; sourceTree = "<group>"; };
+		4CFF99DF3B31510F58C75D64CB604F3F /* ImageDecoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageDecoding.swift; path = Sources/ImageDecoding.swift; sourceTree = "<group>"; };
+		4E49B93A033F851D43F5BA768CB3FB29 /* DataCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataCache.swift; path = Sources/DataCache.swift; sourceTree = "<group>"; };
+		4FFACD412D12E9AA04141378B31915A1 /* Pods-AkharinKhabarTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AkharinKhabarTests-umbrella.h"; sourceTree = "<group>"; };
+		507A83A5B06DBEAE3A9758A8664993CD /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		5094EF37FC734D291FB058839CBDC778 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		51830C90B535A9E46B86085830DA7CD3 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		524D57734984E8B1A93E7C538B6A4CCD /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		542D00171F23CF650F4EF42719164440 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		5479B16F8220DAA9098C364BC1FD5ED9 /* PagingMenuItemSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSource.swift; path = Parchment/Enums/PagingMenuItemSource.swift; sourceTree = "<group>"; };
+		55C79F8DA769AF43C54290EA4D90DF79 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		56F883FC0621F437D2FFDE2919039D84 /* NVActivityIndicatorViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorViewable.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorViewable.swift; sourceTree = "<group>"; };
+		5A719CC1CD39696B344EBC4A879D9658 /* Pods-AkharinKhabar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AkharinKhabar.release.xcconfig"; sourceTree = "<group>"; };
+		5BA28F12C90B6AC6EC2075F29AFEDCFF /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		5BD6B14C83B77A3EC359EEC03EC0C60F /* Pods-AkharinKhabar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AkharinKhabar-dummy.m"; sourceTree = "<group>"; };
+		5F7F52CF29669715A36DC4FC427FDB0A /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		605B0157651B40894578AD884F303817 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		608A879DDC5B0770D693A7EFD944854C /* Pods-AkharinKhabarUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AkharinKhabarUITests-umbrella.h"; sourceTree = "<group>"; };
+		60BC749A470C27574C20AA1219D95277 /* ImagePreheater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePreheater.swift; path = Sources/ImagePreheater.swift; sourceTree = "<group>"; };
+		6A87EDF4B5BAB2EF45FD3362587C3D28 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		6AE52897D488DF6A8F2D93091C1C89D9 /* PagingCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCell.swift; path = Parchment/Classes/PagingCell.swift; sourceTree = "<group>"; };
+		6DDD1D4754007B236569CDD349FD498E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		6F6EADF7C4861F2AF9B8FED98839B95F /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		713F856C80E47998764B38B5870554ED /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		749FAED4FB8774132056ACD30FCC1B8B /* PagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItem.swift; path = Parchment/Protocols/PagingItem.swift; sourceTree = "<group>"; };
+		76BDF6E740313445E3B41A41D22EB239 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePipeline.swift; path = Sources/ImagePipeline.swift; sourceTree = "<group>"; };
+		76FF3E5ECB3F34DFE35A2462842E5F38 /* PagingContentInteraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingContentInteraction.swift; path = Parchment/Enums/PagingContentInteraction.swift; sourceTree = "<group>"; };
+		77470D08E4ABA73FAE971A8CC806715A /* SWXMLHash-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SWXMLHash-Info.plist"; sourceTree = "<group>"; };
+		78ED10EADAA5C5BEC14FF3E745B4F35F /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = Sources/Deprecated.swift; sourceTree = "<group>"; };
+		7904BF24A4EC9EEC53D046F9902007B1 /* Pods-AkharinKhabarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AkharinKhabarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7911246FE3F461F296B008E1E488A3D4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		7A10E4E33EDC63C924B4ABF43F9ACEE1 /* Pods-AkharinKhabarTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AkharinKhabarTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AC36E18558F53FC8A797AB4457E79DF /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		7E764712076E9828FD27066D1CFAE6B4 /* InvalidationState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InvalidationState.swift; path = Parchment/Enums/InvalidationState.swift; sourceTree = "<group>"; };
+		7F94D9EC53081878D5E6E6FAA8C25132 /* Pods-AkharinKhabar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AkharinKhabar-acknowledgements.plist"; sourceTree = "<group>"; };
+		830425EF195999357A7F7C45FB984F6C /* FixedPagingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedPagingViewController.swift; path = Parchment/Classes/FixedPagingViewController.swift; sourceTree = "<group>"; };
+		835A8B439DED0D2825E7D860860CC65F /* Parchment.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Parchment.modulemap; sourceTree = "<group>"; };
+		83D11E0FE72DC7FA491C3D3389F67FAD /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		842CCB6C473963E1309A0BA9F4071463 /* SWXMLHash.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWXMLHash.xcconfig; sourceTree = "<group>"; };
+		84DC9186AB64F951E0E573E08E698347 /* SWXMLHash-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWXMLHash-dummy.m"; sourceTree = "<group>"; };
+		86A563173F87D9C882FC99C2C332364E /* PagingDiff.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDiff.swift; path = Parchment/Structs/PagingDiff.swift; sourceTree = "<group>"; };
+		88757CC56E35EA5BA29ABDEA7A7A3EB8 /* EMPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EMPageViewController.swift; path = Parchment/Classes/EMPageViewController.swift; sourceTree = "<group>"; };
+		899509099E892D3D579872883169A873 /* PagingInvalidationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingInvalidationContext.swift; path = Parchment/Classes/PagingInvalidationContext.swift; sourceTree = "<group>"; };
+		8BC5532F670C1473B3EE94C78812E290 /* SWXMLHash-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWXMLHash-prefix.pch"; sourceTree = "<group>"; };
+		8CDAF6305371450ABAA001B7E0FC5162 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		92105A0D0A7C026B6E3A40187736A939 /* ImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageView.swift; path = Sources/ImageView.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9657950E2E2C91F2C04483FD47C99C9C /* IndexedPagingItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingItem.swift; path = Parchment/Structs/IndexedPagingItem.swift; sourceTree = "<group>"; };
+		976BD46442235FA5293B502F47005C8D /* ImageRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageRequest.swift; path = Sources/ImageRequest.swift; sourceTree = "<group>"; };
+		9772DD10CE1C9619DB50BDCFE16A503B /* PagingIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorView.swift; path = Parchment/Classes/PagingIndicatorView.swift; sourceTree = "<group>"; };
+		9784712B64F6E41979E52C37404F70FB /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		98C84F06BB3FF3B7F66B4EF80E42280A /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		99584B3E298E04BED3FB8ED5CA879F54 /* Nuke-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nuke-umbrella.h"; sourceTree = "<group>"; };
+		99FD45A63ED3E36A04D4CC7DABEFA0EB /* PagingTitleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTitleCell.swift; path = Parchment/Classes/PagingTitleCell.swift; sourceTree = "<group>"; };
+		9BDF2748F30428F61EB5AC8EE1D3D38F /* Pods-AkharinKhabarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AkharinKhabarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BE7CB15C2E0AC6117B8D6A75C675C06 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		9C0596D26A61AB7B2AFCE6984C562990 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Source/NVActivityIndicatorView/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		9E568C40259F41B76DFFB805E911B1A0 /* Nuke-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Nuke-dummy.m"; sourceTree = "<group>"; };
+		A0D5997050DDB32F0DD65B9B18A05C7E /* PagingDistance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingDistance.swift; path = Parchment/Structs/PagingDistance.swift; sourceTree = "<group>"; };
+		A2BCB55631A245575AD27AE1933A7775 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		A3D9F89694D954854F2597B2D6E706C5 /* Pods-AkharinKhabarUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AkharinKhabarUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A43650DE91D5202161DC6400ADAEB532 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		A4A00D63ECA85094AA5983FC93FA7D87 /* Pods-AkharinKhabarUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AkharinKhabarUITests.modulemap"; sourceTree = "<group>"; };
+		A932D8011537F8F0B4FAAEE85A38AAA5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		A98C18BD783129AEDDFC6CD010D88EF9 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		ACAE005DABCBDF94E30B14366DABDE1C /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		ACF4A820FEAC465A618EB2D37BDE29FB /* Pods-AkharinKhabar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AkharinKhabar-umbrella.h"; sourceTree = "<group>"; };
+		AE5CF6CEABC05151BD46ABC4F24142AC /* DataLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataLoader.swift; path = Sources/DataLoader.swift; sourceTree = "<group>"; };
+		AEF5BF46A9301C49CE36875F7280F2DB /* NVActivityIndicatorPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorPresenter.swift; path = Source/NVActivityIndicatorView/Presenter/NVActivityIndicatorPresenter.swift; sourceTree = "<group>"; };
+		B0C3BD8E06A73EF8077E9545EB76CF25 /* NVActivityIndicatorView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.xcconfig; sourceTree = "<group>"; };
+		B2374F0FC74F909C10736FBAF2F6070C /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		B3C0D320FD6294EF52AD9A9E5802B310 /* PagingItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingItems.swift; path = Parchment/Structs/PagingItems.swift; sourceTree = "<group>"; };
+		B54D686BBC53B7AFD566926A99BDF630 /* PagingTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingTransition.swift; path = Parchment/Structs/PagingTransition.swift; sourceTree = "<group>"; };
+		B5A1F1DF6778CEF380EFF418751AD94F /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		B722C59D3C28F827DECD60B9110D387F /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		B7CACC5694B926844B08084C2C1448B7 /* Nuke.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Nuke.xcconfig; sourceTree = "<group>"; };
+		B874ADF8E0550ADBEEF4891BC934C06F /* Pods_AkharinKhabarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AkharinKhabarTests.framework; path = "Pods-AkharinKhabarTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC015A092C27C1517FAEF69F8435C5D2 /* Pods_AkharinKhabarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AkharinKhabarUITests.framework; path = "Pods-AkharinKhabarUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCDFCD526AE5EEDE2BADE8E126F6EEBA /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		BDC5124F853FD66DC2BD20120DB10F76 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		BECB2E680CC56547E0391BEF10B0C896 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		BF7816312FD51E3894F2E1585079ADF1 /* Nuke.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Nuke.modulemap; sourceTree = "<group>"; };
+		BFAF413D44ABE018DCF004298F7B2C8F /* ImageProcessing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessing.swift; path = Sources/ImageProcessing.swift; sourceTree = "<group>"; };
+		C2CCE77322A7E6D29469DA1F4F028520 /* PagingBorderOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderOptions.swift; path = Parchment/Enums/PagingBorderOptions.swift; sourceTree = "<group>"; };
+		C443A930F3FF92C7F31498FB0898387D /* Pods-AkharinKhabar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AkharinKhabar.debug.xcconfig"; sourceTree = "<group>"; };
+		C89CB7A1D996B7613BB38C6AC1DF9EE7 /* Pods-AkharinKhabarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AkharinKhabarTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8C906B6418283524E858C7B0E88DDB8 /* Pods-AkharinKhabar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AkharinKhabar.modulemap"; sourceTree = "<group>"; };
+		C9F69D42F88B448CEADDDA22987CBD5A /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		CC01E6AD125CC3E9341E89FB83D72EB4 /* ImageTaskMetrics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTaskMetrics.swift; path = Sources/ImageTaskMetrics.swift; sourceTree = "<group>"; };
+		CD2824E130C8B082F4297D533126795A /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		CD35EC475B98A642901ABFFBF5028A2F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		CDB0A511C56C34F5C339F0F134ED5556 /* ImageCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCache.swift; path = Sources/ImageCache.swift; sourceTree = "<group>"; };
+		CDFF6DA48D04D11BAAD672DDACA52FD9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		D163A5820F4BE7F507D941780D867201 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		D25AA8B56D223F3998F9E6089573C42C /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		D2CB1261A44125864BCD9B51321B4FDD /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		D51378EEA26780A30DB34CAB3E648616 /* Pods-AkharinKhabarUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AkharinKhabarUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D52D9BF9277DE4AA11B37B4EB736BFDB /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		D59DBD0D9D246E550D346099957BED7C /* PagingMenuHorizontalAlignment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuHorizontalAlignment.swift; path = Parchment/Enums/PagingMenuHorizontalAlignment.swift; sourceTree = "<group>"; };
+		D6E595701C9B316654A06D81480E67FB /* IndexedPagingDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndexedPagingDataSource.swift; path = Parchment/Classes/IndexedPagingDataSource.swift; sourceTree = "<group>"; };
+		D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D7371C53FC76986E8D9F97B925BA94A8 /* PagingViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDelegate.swift; path = Parchment/Protocols/PagingViewControllerDelegate.swift; sourceTree = "<group>"; };
+		D901922D5D8413CBBE2722A4657EA13C /* PagingViewControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerDataSource.swift; path = Parchment/Protocols/PagingViewControllerDataSource.swift; sourceTree = "<group>"; };
+		D92F2267D8D44733A7F02F72A37FB1F6 /* PagingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingView.swift; path = Parchment/Classes/PagingView.swift; sourceTree = "<group>"; };
+		DB40147F2B3E3685F7E7FF695AA0BEB9 /* Pods-AkharinKhabar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AkharinKhabar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DC6363D56A8657F40FA23BB5A7899C58 /* SWXMLHash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = Source/SWXMLHash.swift; sourceTree = "<group>"; };
+		DF2C4A96E76E167799416EC1DA1FE1A9 /* PagingSizeCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSizeCache.swift; path = Parchment/Classes/PagingSizeCache.swift; sourceTree = "<group>"; };
+		E13DB5881DC47567FBE96C6145459019 /* Parchment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Parchment.xcconfig; sourceTree = "<group>"; };
+		E431B91804E4ADE204A658B86954F8CC /* Pods-AkharinKhabarUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AkharinKhabarUITests-Info.plist"; sourceTree = "<group>"; };
+		E439057C1D42291779E08948B9353F7F /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SWXMLHash+TypeConversion.swift"; path = "Source/SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		E664CD714E77FF4F7283CD785E05EA12 /* PagingIndicatorOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingIndicatorOptions.swift; path = Parchment/Enums/PagingIndicatorOptions.swift; sourceTree = "<group>"; };
+		E72676D07988C2A67476D58BA198C8A5 /* PagingSelectedScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingSelectedScrollPosition.swift; path = Parchment/Enums/PagingSelectedScrollPosition.swift; sourceTree = "<group>"; };
+		E779C246E76E481183FBAC7E3694EEAF /* PagingLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingLayout.swift; path = Parchment/Protocols/PagingLayout.swift; sourceTree = "<group>"; };
+		E810DF02107B5870D70B40F72EF49E00 /* Pods-AkharinKhabar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AkharinKhabar-Info.plist"; sourceTree = "<group>"; };
+		E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EAB0892289CE95DD83EC86095F443EDD /* Tween.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tween.swift; path = Parchment/Protocols/Tween.swift; sourceTree = "<group>"; };
+		ECCED53A8226835B798BBAC5929B3D86 /* PagingBorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderView.swift; path = Parchment/Classes/PagingBorderView.swift; sourceTree = "<group>"; };
+		ED015F5828677299C5EBA25BD5FF66BA /* SWXMLHash.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SWXMLHash.modulemap; sourceTree = "<group>"; };
+		ED74F631334441BF162CB87461B8BB62 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		EEAB66A58526AAD17DF771F4566C227D /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		EED4B88E6DCA956FE8F1B85E77A4D1B7 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		EFEA07B53117588A3159C1BB2F63BCE4 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		F4FD4F82987DF4C10DDE22329F0F386E /* PagingCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCollectionViewLayout.swift; path = Parchment/Classes/PagingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		F59A7D63AF65BBB52E036EBD8AF2BBB4 /* PagingState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingState.swift; path = Parchment/Enums/PagingState.swift; sourceTree = "<group>"; };
+		F7201184D79E896A0BCFCD140C59CCD6 /* Nuke-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nuke-prefix.pch"; sourceTree = "<group>"; };
+		F7AD41C9B1236EFA773CD52709CA6B4D /* PagingCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingCellViewModel.swift; path = Parchment/Structs/PagingCellViewModel.swift; sourceTree = "<group>"; };
+		F8385640BD8E74AD203B6426B3B03195 /* Parchment-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Parchment-dummy.m"; sourceTree = "<group>"; };
+		F8470F163D973E0A975D6EEF10506000 /* Parchment-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-umbrella.h"; sourceTree = "<group>"; };
+		F928619E6F6C87AC39C946DB599EC3FC /* PagingBorderLayoutAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingBorderLayoutAttributes.swift; path = Parchment/Classes/PagingBorderLayoutAttributes.swift; sourceTree = "<group>"; };
+		F93F19C6A71EA59EB8A8C1BAED47ADE0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F942EE4FC0B5A7BEC8ECF0EF7FD86A2D /* Parchment-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Parchment-prefix.pch"; sourceTree = "<group>"; };
+		F9D1CB44C027EBC4F7F07775E293EDB0 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Source/NVActivityIndicatorView/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		FA1E7F5A94632096CF985CB367D3F798 /* PagingViewControllerInfiniteDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingViewControllerInfiniteDataSource.swift; path = Parchment/Protocols/PagingViewControllerInfiniteDataSource.swift; sourceTree = "<group>"; };
+		FA893E08300357535E26E55FEF341F7E /* PagingMenuItemSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagingMenuItemSize.swift; path = Parchment/Enums/PagingMenuItemSize.swift; sourceTree = "<group>"; };
+		FAF2A975AFBEEF895BAC43DBCBA77446 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		FD3EE8DCA591897EB859482BE67CC215 /* Pods-AkharinKhabarUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AkharinKhabarUITests-dummy.m"; sourceTree = "<group>"; };
+		FF02F5E377AFC9520932DCF0869F55D6 /* Pods_AkharinKhabar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AkharinKhabar.framework; path = "Pods-AkharinKhabar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AFC94CFC3144540E3FDF869EC9783AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10571C01FBAD86D3B145C18ABC1CDEF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C87FA13717B9AF244121C67B9EFA066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D9E3934EB7DFDC66E6582653226388 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E8AF668A2161F7D6F680F721DB65D2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EC5B74B9B5DC842F4179D19E6DE6D4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F2BEDDA7C480FA188DCC628C11F681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F69C6F84C83E3F4FAAA2AB194EF242F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CD03D3491A9F4C5ECDDCBB216EA4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3802F7712A3EA10686C46D66765E991 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16D8B412CBBC1BD48102F47C9CF428A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70585DBDBE9171521A33BA5F6F37A50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E988521D450E6F9919254439DB232AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3150C1B9BA946B498A77AEB3D89E83BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8AB91AACF3AE8A55984BBABA90E0767 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79451235EE2431ECC4EF3D055BCE19DF /* Foundation.framework in Frameworks */,
+				5F4F9EC94386AA35404CCC9A3E7C9009 /* QuartzCore.framework in Frameworks */,
+				1905EF0872D7E2B15B3C981DAAE21777 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EBF83A17FAAD0333B507DD3E1099181 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F3ACB87FD26498ED06035F6BFBFDD16 /* Parchment */ = {
+			isa = PBXGroup;
+			children = (
+				88757CC56E35EA5BA29ABDEA7A7A3EB8 /* EMPageViewController.swift */,
+				830425EF195999357A7F7C45FB984F6C /* FixedPagingViewController.swift */,
+				D6E595701C9B316654A06D81480E67FB /* IndexedPagingDataSource.swift */,
+				9657950E2E2C91F2C04483FD47C99C9C /* IndexedPagingItem.swift */,
+				7E764712076E9828FD27066D1CFAE6B4 /* InvalidationState.swift */,
+				F928619E6F6C87AC39C946DB599EC3FC /* PagingBorderLayoutAttributes.swift */,
+				C2CCE77322A7E6D29469DA1F4F028520 /* PagingBorderOptions.swift */,
+				ECCED53A8226835B798BBAC5929B3D86 /* PagingBorderView.swift */,
+				6AE52897D488DF6A8F2D93091C1C89D9 /* PagingCell.swift */,
+				15DF2ADB4495480E33D588F0C377E76D /* PagingCellLayoutAttributes.swift */,
+				F7AD41C9B1236EFA773CD52709CA6B4D /* PagingCellViewModel.swift */,
+				F4FD4F82987DF4C10DDE22329F0F386E /* PagingCollectionViewLayout.swift */,
+				76FF3E5ECB3F34DFE35A2462842E5F38 /* PagingContentInteraction.swift */,
+				86A563173F87D9C882FC99C2C332364E /* PagingDiff.swift */,
+				466ACA174EEB8D9E18C1281726C4191D /* PagingDirection.swift */,
+				A0D5997050DDB32F0DD65B9B18A05C7E /* PagingDistance.swift */,
+				160BF3C9AD2048A0D72FE64AC25398B2 /* PagingEvent.swift */,
+				212FB857417E21BF5475F2D8E2113254 /* PagingIndicatorLayoutAttributes.swift */,
+				04B005C4B8DE07157E85AD91F7BFA502 /* PagingIndicatorMetric.swift */,
+				E664CD714E77FF4F7283CD785E05EA12 /* PagingIndicatorOptions.swift */,
+				9772DD10CE1C9619DB50BDCFE16A503B /* PagingIndicatorView.swift */,
+				899509099E892D3D579872883169A873 /* PagingInvalidationContext.swift */,
+				749FAED4FB8774132056ACD30FCC1B8B /* PagingItem.swift */,
+				B3C0D320FD6294EF52AD9A9E5802B310 /* PagingItems.swift */,
+				E779C246E76E481183FBAC7E3694EEAF /* PagingLayout.swift */,
+				D59DBD0D9D246E550D346099957BED7C /* PagingMenuHorizontalAlignment.swift */,
+				25D48385D19F3AEDFD521ABEE9C6F706 /* PagingMenuInteraction.swift */,
+				FA893E08300357535E26E55FEF341F7E /* PagingMenuItemSize.swift */,
+				5479B16F8220DAA9098C364BC1FD5ED9 /* PagingMenuItemSource.swift */,
+				37383D6B15533713EBCB37172B3489B2 /* PagingMenuTransition.swift */,
+				26F9A45CBD300F11E81BCAA207BC8645 /* PagingOptions.swift */,
+				E72676D07988C2A67476D58BA198C8A5 /* PagingSelectedScrollPosition.swift */,
+				DF2C4A96E76E167799416EC1DA1FE1A9 /* PagingSizeCache.swift */,
+				F59A7D63AF65BBB52E036EBD8AF2BBB4 /* PagingState.swift */,
+				35168581BC1F495DFAFA07C3BADA51D0 /* PagingStateMachine.swift */,
+				99FD45A63ED3E36A04D4CC7DABEFA0EB /* PagingTitleCell.swift */,
+				B54D686BBC53B7AFD566926A99BDF630 /* PagingTransition.swift */,
+				D92F2267D8D44733A7F02F72A37FB1F6 /* PagingView.swift */,
+				05774D230F445FBA3F05CAB7886836B0 /* PagingViewController.swift */,
+				D901922D5D8413CBBE2722A4657EA13C /* PagingViewControllerDataSource.swift */,
+				D7371C53FC76986E8D9F97B925BA94A8 /* PagingViewControllerDelegate.swift */,
+				FA1E7F5A94632096CF985CB367D3F798 /* PagingViewControllerInfiniteDataSource.swift */,
+				EAB0892289CE95DD83EC86095F443EDD /* Tween.swift */,
+				4868FF5CD09D8A730DB66C9D757713F2 /* UIColor+interpolation.swift */,
+				2A817AB9EE694AAA1BF1F2B0FAC5B496 /* UIEdgeInsets.swift */,
+				07B906A2954A0342739D724DDF9BDDB9 /* UIScrollView+near.swift */,
+				166BC09A1A90785618AB3AC5EF036C88 /* UIView+constraints.swift */,
+				507E9CA14DA7743DD17A3B47621A4287 /* Support Files */,
+			);
+			name = Parchment;
+			path = Parchment;
+			sourceTree = "<group>";
+		};
+		2E6C499F9BCF08E5EAF82DB45671BF24 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98C84F06BB3FF3B7F66B4EF80E42280A /* NVActivityIndicatorView.modulemap */,
+				B0C3BD8E06A73EF8077E9545EB76CF25 /* NVActivityIndicatorView.xcconfig */,
+				C9F69D42F88B448CEADDDA22987CBD5A /* NVActivityIndicatorView-dummy.m */,
+				524D57734984E8B1A93E7C538B6A4CCD /* NVActivityIndicatorView-Info.plist */,
+				EFEA07B53117588A3159C1BB2F63BCE4 /* NVActivityIndicatorView-prefix.pch */,
+				2FF03723864A9489D1EE123773AF509A /* NVActivityIndicatorView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
+			sourceTree = "<group>";
+		};
+		2E9ADE853A3170C290833882C6988394 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				178226F33E028B632CFBDC786D0FF632 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				1ADDC78BEE35B90752E4879AB9F4386D /* NVActivityIndicatorAnimationBallBeat.swift */,
+				0AAFA3E42E55A92982EF929902A231B7 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				0514B0FCFC780CF5AA8E2BAEC5CE4BE6 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				448BCC27F725F68A944BB3FAEDB6AA9B /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				5BA28F12C90B6AC6EC2075F29AFEDCFF /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				D25AA8B56D223F3998F9E6089573C42C /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				016331AED8EFF70F946E76DEA606C160 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				D163A5820F4BE7F507D941780D867201 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				9BE7CB15C2E0AC6117B8D6A75C675C06 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				9784712B64F6E41979E52C37404F70FB /* NVActivityIndicatorAnimationBallRotate.swift */,
+				A2BCB55631A245575AD27AE1933A7775 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				A43650DE91D5202161DC6400ADAEB532 /* NVActivityIndicatorAnimationBallScale.swift */,
+				BDC5124F853FD66DC2BD20120DB10F76 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				7911246FE3F461F296B008E1E488A3D4 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				6DDD1D4754007B236569CDD349FD498E /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				CD35EC475B98A642901ABFFBF5028A2F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				EED4B88E6DCA956FE8F1B85E77A4D1B7 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				0B0AC9E49FD92DE9C0BD4DBB1981B8AD /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				6A87EDF4B5BAB2EF45FD3362587C3D28 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				6F6EADF7C4861F2AF9B8FED98839B95F /* NVActivityIndicatorAnimationBlank.swift */,
+				CD2824E130C8B082F4297D533126795A /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				B5A1F1DF6778CEF380EFF418751AD94F /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				3478BD2DC9E9361088D0C6FEF4280B1B /* NVActivityIndicatorAnimationDelegate.swift */,
+				EEAB66A58526AAD17DF771F4566C227D /* NVActivityIndicatorAnimationLineScale.swift */,
+				ACAE005DABCBDF94E30B14366DABDE1C /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				A98C18BD783129AEDDFC6CD010D88EF9 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				0A5740C5416998F1938C1B7652666259 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				F9D1CB44C027EBC4F7F07775E293EDB0 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				713F856C80E47998764B38B5870554ED /* NVActivityIndicatorAnimationOrbit.swift */,
+				542D00171F23CF650F4EF42719164440 /* NVActivityIndicatorAnimationPacman.swift */,
+				5F7F52CF29669715A36DC4FC427FDB0A /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				ED74F631334441BF162CB87461B8BB62 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				605B0157651B40894578AD884F303817 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				AEF5BF46A9301C49CE36875F7280F2DB /* NVActivityIndicatorPresenter.swift */,
+				9C0596D26A61AB7B2AFCE6984C562990 /* NVActivityIndicatorShape.swift */,
+				83D11E0FE72DC7FA491C3D3389F67FAD /* NVActivityIndicatorView.swift */,
+				56F883FC0621F437D2FFDE2919039D84 /* NVActivityIndicatorViewable.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		326A40E503B956E071590DE445EE643C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F93F19C6A71EA59EB8A8C1BAED47ADE0 /* Alamofire.framework */,
+				203C610953886E149ED22063683EBA48 /* Nuke.framework */,
+				1684829BAAC892D2516F9B1AA2EEA19C /* NVActivityIndicatorView.framework */,
+				0FA5AA4E28F0E70D54DB5E30593A66BE /* Parchment.framework */,
+				FF02F5E377AFC9520932DCF0869F55D6 /* Pods_AkharinKhabar.framework */,
+				B874ADF8E0550ADBEEF4891BC934C06F /* Pods_AkharinKhabarTests.framework */,
+				BC015A092C27C1517FAEF69F8435C5D2 /* Pods_AkharinKhabarUITests.framework */,
+				4B514A78D5A83C5ECFCE4D31FD714882 /* SWXMLHash.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		507E9CA14DA7743DD17A3B47621A4287 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				835A8B439DED0D2825E7D860860CC65F /* Parchment.modulemap */,
+				E13DB5881DC47567FBE96C6145459019 /* Parchment.xcconfig */,
+				F8385640BD8E74AD203B6426B3B03195 /* Parchment-dummy.m */,
+				2799B8346C90B780ED3029D0161275B1 /* Parchment-Info.plist */,
+				F942EE4FC0B5A7BEC8ECF0EF7FD86A2D /* Parchment-prefix.pch */,
+				F8470F163D973E0A975D6EEF10506000 /* Parchment-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Parchment";
+			sourceTree = "<group>";
+		};
+		50F8DA0B8374C4D00500110F78457F91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3CB3D068F991C01C61E0D33B93950FB /* Alamofire */,
+				73591AFC37CDA9BAC2037EF9D52BBA5E /* Nuke */,
+				818D58B5BB7F9E7227023AB318F0F404 /* NVActivityIndicatorView */,
+				1F3ACB87FD26498ED06035F6BFBFDD16 /* Parchment */,
+				EB6C045717CE38C67EACA28DF41880D9 /* SWXMLHash */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7031CECCA8E95F9557F9979AC1E8D286 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED015F5828677299C5EBA25BD5FF66BA /* SWXMLHash.modulemap */,
+				842CCB6C473963E1309A0BA9F4071463 /* SWXMLHash.xcconfig */,
+				84DC9186AB64F951E0E573E08E698347 /* SWXMLHash-dummy.m */,
+				77470D08E4ABA73FAE971A8CC806715A /* SWXMLHash-Info.plist */,
+				8BC5532F670C1473B3EE94C78812E290 /* SWXMLHash-prefix.pch */,
+				3EDC3699C9B6FC8B5E96B916A288265F /* SWXMLHash-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWXMLHash";
+			sourceTree = "<group>";
+		};
+		73591AFC37CDA9BAC2037EF9D52BBA5E /* Nuke */ = {
+			isa = PBXGroup;
+			children = (
+				4E49B93A033F851D43F5BA768CB3FB29 /* DataCache.swift */,
+				AE5CF6CEABC05151BD46ABC4F24142AC /* DataLoader.swift */,
+				78ED10EADAA5C5BEC14FF3E745B4F35F /* Deprecated.swift */,
+				CDB0A511C56C34F5C339F0F134ED5556 /* ImageCache.swift */,
+				4CFF99DF3B31510F58C75D64CB604F3F /* ImageDecoding.swift */,
+				76BDF6E740313445E3B41A41D22EB239 /* ImagePipeline.swift */,
+				60BC749A470C27574C20AA1219D95277 /* ImagePreheater.swift */,
+				BFAF413D44ABE018DCF004298F7B2C8F /* ImageProcessing.swift */,
+				976BD46442235FA5293B502F47005C8D /* ImageRequest.swift */,
+				CC01E6AD125CC3E9341E89FB83D72EB4 /* ImageTaskMetrics.swift */,
+				92105A0D0A7C026B6E3A40187736A939 /* ImageView.swift */,
+				3FE2A95D0E46A97298498548FF4026FF /* Internal.swift */,
+				7502C80A59FCBE51E7B5BEF12ABBE241 /* Support Files */,
+			);
+			name = Nuke;
+			path = Nuke;
+			sourceTree = "<group>";
+		};
+		7502C80A59FCBE51E7B5BEF12ABBE241 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF7816312FD51E3894F2E1585079ADF1 /* Nuke.modulemap */,
+				B7CACC5694B926844B08084C2C1448B7 /* Nuke.xcconfig */,
+				9E568C40259F41B76DFFB805E911B1A0 /* Nuke-dummy.m */,
+				0DBCD27D71938F298745183B1D57E3D6 /* Nuke-Info.plist */,
+				F7201184D79E896A0BCFCD140C59CCD6 /* Nuke-prefix.pch */,
+				99584B3E298E04BED3FB8ED5CA879F54 /* Nuke-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Nuke";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				50F8DA0B8374C4D00500110F78457F91 /* Pods */,
+				326A40E503B956E071590DE445EE643C /* Products */,
+				8F8E7CC91C7ED10B6A5EBF726D52E234 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		818D58B5BB7F9E7227023AB318F0F404 /* NVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				2E9ADE853A3170C290833882C6988394 /* Presenter */,
+				2E6C499F9BCF08E5EAF82DB45671BF24 /* Support Files */,
+			);
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
+			sourceTree = "<group>";
+		};
+		8F8E7CC91C7ED10B6A5EBF726D52E234 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD22FDAE7D2D52AC8654BF47BC640481 /* Pods-AkharinKhabar */,
+				BDD34870B733BA5A5E30CAD9D8BADAE1 /* Pods-AkharinKhabarTests */,
+				94C5F95AED469F2C5CFD0D3C0010AE95 /* Pods-AkharinKhabarUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94C5F95AED469F2C5CFD0D3C0010AE95 /* Pods-AkharinKhabarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4A00D63ECA85094AA5983FC93FA7D87 /* Pods-AkharinKhabarUITests.modulemap */,
+				A3D9F89694D954854F2597B2D6E706C5 /* Pods-AkharinKhabarUITests-acknowledgements.markdown */,
+				D51378EEA26780A30DB34CAB3E648616 /* Pods-AkharinKhabarUITests-acknowledgements.plist */,
+				FD3EE8DCA591897EB859482BE67CC215 /* Pods-AkharinKhabarUITests-dummy.m */,
+				E431B91804E4ADE204A658B86954F8CC /* Pods-AkharinKhabarUITests-Info.plist */,
+				608A879DDC5B0770D693A7EFD944854C /* Pods-AkharinKhabarUITests-umbrella.h */,
+				7904BF24A4EC9EEC53D046F9902007B1 /* Pods-AkharinKhabarUITests.debug.xcconfig */,
+				08BD0304836D846710E306941B181D97 /* Pods-AkharinKhabarUITests.release.xcconfig */,
+			);
+			name = "Pods-AkharinKhabarUITests";
+			path = "Target Support Files/Pods-AkharinKhabarUITests";
+			sourceTree = "<group>";
+		};
+		9EBF83A17FAAD0333B507DD3E1099181 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90C7A160ABE5DAC85DC33E762CF55AE1 /* Foundation.framework */,
+				D6E839864EE09C8CE0528DE01FD9241A /* QuartzCore.framework */,
+				E826AE0196CB3540E72242664FBD3F32 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BD22FDAE7D2D52AC8654BF47BC640481 /* Pods-AkharinKhabar */ = {
+			isa = PBXGroup;
+			children = (
+				C8C906B6418283524E858C7B0E88DDB8 /* Pods-AkharinKhabar.modulemap */,
+				DB40147F2B3E3685F7E7FF695AA0BEB9 /* Pods-AkharinKhabar-acknowledgements.markdown */,
+				7F94D9EC53081878D5E6E6FAA8C25132 /* Pods-AkharinKhabar-acknowledgements.plist */,
+				5BD6B14C83B77A3EC359EEC03EC0C60F /* Pods-AkharinKhabar-dummy.m */,
+				31CD52129D4EF5C62251155908DDF165 /* Pods-AkharinKhabar-frameworks.sh */,
+				E810DF02107B5870D70B40F72EF49E00 /* Pods-AkharinKhabar-Info.plist */,
+				ACF4A820FEAC465A618EB2D37BDE29FB /* Pods-AkharinKhabar-umbrella.h */,
+				C443A930F3FF92C7F31498FB0898387D /* Pods-AkharinKhabar.debug.xcconfig */,
+				5A719CC1CD39696B344EBC4A879D9658 /* Pods-AkharinKhabar.release.xcconfig */,
+			);
+			name = "Pods-AkharinKhabar";
+			path = "Target Support Files/Pods-AkharinKhabar";
+			sourceTree = "<group>";
+		};
+		BDD34870B733BA5A5E30CAD9D8BADAE1 /* Pods-AkharinKhabarTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D1EED1E5794836B08512B3772BBE1AA /* Pods-AkharinKhabarTests.modulemap */,
+				45A65D08BF6CAFC366AE14EBC1F07306 /* Pods-AkharinKhabarTests-acknowledgements.markdown */,
+				7A10E4E33EDC63C924B4ABF43F9ACEE1 /* Pods-AkharinKhabarTests-acknowledgements.plist */,
+				4CE17911A13A6C7FFDC67BF3EBDFC3EA /* Pods-AkharinKhabarTests-dummy.m */,
+				021387FE84AD83CE6448D3601094C318 /* Pods-AkharinKhabarTests-Info.plist */,
+				4FFACD412D12E9AA04141378B31915A1 /* Pods-AkharinKhabarTests-umbrella.h */,
+				9BDF2748F30428F61EB5AC8EE1D3D38F /* Pods-AkharinKhabarTests.debug.xcconfig */,
+				C89CB7A1D996B7613BB38C6AC1DF9EE7 /* Pods-AkharinKhabarTests.release.xcconfig */,
+			);
+			name = "Pods-AkharinKhabarTests";
+			path = "Target Support Files/Pods-AkharinKhabarTests";
+			sourceTree = "<group>";
+		};
+		E3CB3D068F991C01C61E0D33B93950FB /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				35310E3BF508B22787EC36FBC83AE5ED /* AFError.swift */,
+				4554B35C7609836BE61AE877EFA82BDF /* Alamofire.swift */,
+				BECB2E680CC56547E0391BEF10B0C896 /* DispatchQueue+Alamofire.swift */,
+				180B8F133BFC97CEDC8452EC2AC8195E /* MultipartFormData.swift */,
+				507A83A5B06DBEAE3A9758A8664993CD /* NetworkReachabilityManager.swift */,
+				004449019076C4DF54CB6C12C687E1C0 /* Notifications.swift */,
+				51830C90B535A9E46B86085830DA7CD3 /* ParameterEncoding.swift */,
+				FAF2A975AFBEEF895BAC43DBCBA77446 /* Request.swift */,
+				BCDFCD526AE5EEDE2BADE8E126F6EEBA /* Response.swift */,
+				CDFF6DA48D04D11BAAD672DDACA52FD9 /* ResponseSerialization.swift */,
+				15136119477F6606FC9397F502B7A5B1 /* Result.swift */,
+				3D4FB175E3F76427AB7B6BCA3FB68097 /* ServerTrustPolicy.swift */,
+				D52D9BF9277DE4AA11B37B4EB736BFDB /* SessionDelegate.swift */,
+				B722C59D3C28F827DECD60B9110D387F /* SessionManager.swift */,
+				D2CB1261A44125864BCD9B51321B4FDD /* TaskDelegate.swift */,
+				B2374F0FC74F909C10736FBAF2F6070C /* Timeline.swift */,
+				A932D8011537F8F0B4FAAEE85A38AAA5 /* Validation.swift */,
+				FA3A4FD1629DA989A0107ED7B48B8173 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		EB6C045717CE38C67EACA28DF41880D9 /* SWXMLHash */ = {
+			isa = PBXGroup;
+			children = (
+				1689C199E9388C1461DA728913F005DC /* shim.swift */,
+				DC6363D56A8657F40FA23BB5A7899C58 /* SWXMLHash.swift */,
+				E439057C1D42291779E08948B9353F7F /* SWXMLHash+TypeConversion.swift */,
+				7031CECCA8E95F9557F9979AC1E8D286 /* Support Files */,
+			);
+			name = SWXMLHash;
+			path = SWXMLHash;
+			sourceTree = "<group>";
+		};
+		FA3A4FD1629DA989A0107ED7B48B8173 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5094EF37FC734D291FB058839CBDC778 /* Alamofire.modulemap */,
+				8CDAF6305371450ABAA001B7E0FC5162 /* Alamofire.xcconfig */,
+				7AC36E18558F53FC8A797AB4457E79DF /* Alamofire-dummy.m */,
+				0A3FBAB00F697F2F885AC31DEE3CB7F6 /* Alamofire-Info.plist */,
+				39FBEDA1B5462B1BAD6BFAE8DA9F6CF2 /* Alamofire-prefix.pch */,
+				55C79F8DA769AF43C54290EA4D90DF79 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		327AAAB33CDBAB9A0F3140660C90970E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED6729FBAF1F64B926DF4814C60B616 /* Pods-AkharinKhabarTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3627953B86D95FF7C2D4C137B311EC3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9022457B37A68BC0E222ED9263BDB0AA /* Pods-AkharinKhabarUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47216DC60C94A59D8F18901AA7BD2B1B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF92F1640BF620797FA567C13F165C9 /* Nuke-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A36FD40C984F36CD9FC6208EE7A4B71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB8DC37BA304102830E38F7C9561E0 /* SWXMLHash-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85457C6098C1234D908DE2D3F9D16D40 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC29D6FEB3EBDBAA11FB2FC3371A503 /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E28D8717A03DE1D06405277288220E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67A20C6147D40001A9378288FEEB8AB1 /* Pods-AkharinKhabar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6A607506FEAAC7C41268D3E5CF4E5FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1461221681BCA12A4147900A704727 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDD22C067786EE45B4820DFDF0F893C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849059FE75BE960C5E768F5F1F5E11F5 /* Parchment-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		048FDB8514EE7F659053CD9E95CE5160 /* Parchment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D3A3DF58CABC6F53A511C74BF67D92 /* Build configuration list for PBXNativeTarget "Parchment" */;
+			buildPhases = (
+				EFDD22C067786EE45B4820DFDF0F893C /* Headers */,
+				8AEDF6B234620424933945FD0F184F01 /* Sources */,
+				C16D8B412CBBC1BD48102F47C9CF428A /* Frameworks */,
+				45684AFF82AD906DAF2464C3D1AA994C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parchment;
+			productName = Parchment;
+			productReference = 0FA5AA4E28F0E70D54DB5E30593A66BE /* Parchment.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		065AA0954B8F5E7F0A6D63364A6544F4 /* Pods-AkharinKhabarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FD20369265792D3F2B3C922A77C7046 /* Build configuration list for PBXNativeTarget "Pods-AkharinKhabarUITests" */;
+			buildPhases = (
+				3627953B86D95FF7C2D4C137B311EC3E /* Headers */,
+				EBC7D14154D8A3F47B0D9A735507D86C /* Sources */,
+				4C87FA13717B9AF244121C67B9EFA066 /* Frameworks */,
+				AD1F92CD6F1C5745B0B43E8A5D64B42C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8B63E60779B227FDA83C0966A6045CA /* PBXTargetDependency */,
+			);
+			name = "Pods-AkharinKhabarUITests";
+			productName = "Pods-AkharinKhabarUITests";
+			productReference = BC015A092C27C1517FAEF69F8435C5D2 /* Pods_AkharinKhabarUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		42B95F4ED4978CA37B02F88E100B0A31 /* Nuke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CE447CF49D95306EB56A9F9E5013AC /* Build configuration list for PBXNativeTarget "Nuke" */;
+			buildPhases = (
+				47216DC60C94A59D8F18901AA7BD2B1B /* Headers */,
+				C063EDFF583214ACC6C07A46C71D4A15 /* Sources */,
+				E988521D450E6F9919254439DB232AB6 /* Frameworks */,
+				E84A52200AB724C394ECBDB3EB9CCDE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nuke;
+			productName = Nuke;
+			productReference = 203C610953886E149ED22063683EBA48 /* Nuke.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		978D35F2E84D7D745602FFB2E17B1021 /* NVActivityIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0220BD3B34735B647ACF5E785B137B58 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildPhases = (
+				85457C6098C1234D908DE2D3F9D16D40 /* Headers */,
+				4995B2DA81EA4E67FD3F714F0C9D9B0A /* Sources */,
+				F8AB91AACF3AE8A55984BBABA90E0767 /* Frameworks */,
+				495958717733935CF0D2C54AE19B3C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = 1684829BAAC892D2516F9B1AA2EEA19C /* NVActivityIndicatorView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9DF7E75DAA5C6CADCEFF0135F79461B /* Pods-AkharinKhabarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E0ABED122552B79D318B27E9CA31A21 /* Build configuration list for PBXNativeTarget "Pods-AkharinKhabarTests" */;
+			buildPhases = (
+				327AAAB33CDBAB9A0F3140660C90970E /* Headers */,
+				B1BE27AC7E4F1DAD9F58BD210A350114 /* Sources */,
+				76CD03D3491A9F4C5ECDDCBB216EA4D4 /* Frameworks */,
+				49AFA6DD96D07A632CDCDEDC742FB238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A0FEAE8EC942A99901530ABEC7E53ED /* PBXTargetDependency */,
+			);
+			name = "Pods-AkharinKhabarTests";
+			productName = "Pods-AkharinKhabarTests";
+			productReference = B874ADF8E0550ADBEEF4891BC934C06F /* Pods_AkharinKhabarTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB6524EAA476D9FB79EA32DAE31DCD98 /* Pods-AkharinKhabar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C4CB3E1BC508E05BED4B7778DA0CED /* Build configuration list for PBXNativeTarget "Pods-AkharinKhabar" */;
+			buildPhases = (
+				96E28D8717A03DE1D06405277288220E /* Headers */,
+				DFDBD30C2ECF53689E9B69AC38B9BEE8 /* Sources */,
+				72F2BEDDA7C480FA188DCC628C11F681 /* Frameworks */,
+				D8F836505BCBB00C99354015AA5F4061 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA9F9BCDAA737D3537144207B64D5C7 /* PBXTargetDependency */,
+				A87AAA022BE0307C02F81D64DB5DEC52 /* PBXTargetDependency */,
+				D22A8366EF8DFED109EC281E2620B9D9 /* PBXTargetDependency */,
+				74E1C7DD6AEC36D59D3E88580AAD04CA /* PBXTargetDependency */,
+				90D4A9CFD65E0DFB75F23A44B98EFC4C /* PBXTargetDependency */,
+			);
+			name = "Pods-AkharinKhabar";
+			productName = "Pods-AkharinKhabar";
+			productReference = FF02F5E377AFC9520932DCF0869F55D6 /* Pods_AkharinKhabar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D97C73A22793E64AE30BA54FA57682B3 /* SWXMLHash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA48451AEDD6AE1B432512C22FA865D7 /* Build configuration list for PBXNativeTarget "SWXMLHash" */;
+			buildPhases = (
+				6A36FD40C984F36CD9FC6208EE7A4B71 /* Headers */,
+				9DCC2C76C061ED0BE3B5ADC0A5DADA2B /* Sources */,
+				2AFC94CFC3144540E3FDF869EC9783AE /* Frameworks */,
+				135514426523CE2DB098A712B06FC795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWXMLHash;
+			productName = SWXMLHash;
+			productReference = 4B514A78D5A83C5ECFCE4D31FD714882 /* SWXMLHash.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E76458C58C9140B6A16D60547E68E80C /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427F0F003A1AD80AE00155AFCDEFAC20 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				A6A607506FEAAC7C41268D3E5CF4E5FE /* Headers */,
+				CC399CEC576B42C962CEB290481CAF95 /* Sources */,
+				6E8AF668A2161F7D6F680F721DB65D2D /* Frameworks */,
+				3DDB7E21141D7764AE4658D5B6AFF8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = F93F19C6A71EA59EB8A8C1BAED47ADE0 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 326A40E503B956E071590DE445EE643C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E76458C58C9140B6A16D60547E68E80C /* Alamofire */,
+				42B95F4ED4978CA37B02F88E100B0A31 /* Nuke */,
+				978D35F2E84D7D745602FFB2E17B1021 /* NVActivityIndicatorView */,
+				048FDB8514EE7F659053CD9E95CE5160 /* Parchment */,
+				CB6524EAA476D9FB79EA32DAE31DCD98 /* Pods-AkharinKhabar */,
+				C9DF7E75DAA5C6CADCEFF0135F79461B /* Pods-AkharinKhabarTests */,
+				065AA0954B8F5E7F0A6D63364A6544F4 /* Pods-AkharinKhabarUITests */,
+				D97C73A22793E64AE30BA54FA57682B3 /* SWXMLHash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		135514426523CE2DB098A712B06FC795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDB7E21141D7764AE4658D5B6AFF8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45684AFF82AD906DAF2464C3D1AA994C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495958717733935CF0D2C54AE19B3C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49AFA6DD96D07A632CDCDEDC742FB238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD1F92CD6F1C5745B0B43E8A5D64B42C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8F836505BCBB00C99354015AA5F4061 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E84A52200AB724C394ECBDB3EB9CCDE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4995B2DA81EA4E67FD3F714F0C9D9B0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE58A9D48E9575808D085DD1BBCF489 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				4B56C8BCF59D41ACFA09CBA3D1508678 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				85B9B06515A80E0EAEA674A9F39DDD97 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				413C67DCC7C16CD3752647D9509E5E10 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				7BE07E1ADAE87C3EEB4C50B2F248C237 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				DFCA37589015B5A5F6A11E61360ED39A /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				5F9421A709A1D187E53E758C9677AC36 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				A9CDC49BCA042677979B128247F3DE11 /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				76F10269ADEC41D420B047F727216846 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				CADD3B9635076B07A7BF621E3CA992C7 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				DDA00B6AB4E1C59251B98A712FC1FC39 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				9CB8DCDF79110D54F47803718BFFBF36 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				21DBD31E5E4D20CB5BC7EF7C58F37F07 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				2FB9E083FDBEC11ABBA21A7CE566D1F1 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				9FC2CF984680C0C89CBBB9D1210A1AD5 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				9E8B683192D4428C9A572974FF08BFBD /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				1D3EFD7461E1E1971DEF846A978A471F /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				1FE208F00C26A4029AE661E62271F565 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				BFF195916DC851D5A802701F952A21FA /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				CF4532A6ADF8ACC2E8095BA4805CE268 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				DE2F08C01A67FE0A8FD4FBD93B74AA0D /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				0E5D53D9B25F06D67C66AFC249217167 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				AA6E19FC964E3A8165409E4942DE5C8F /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				EF558A1A772E92D1F926B2716891C0E1 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				84ED63C5A1DC2064BACCE6F212E1C77F /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				0A139D4D427C48C794556CAC29B383A4 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				EB7BFFA3716D6306AEB167A4573C89FB /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				452F8C79F4B72A53D1ADB433D9ECF898 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				FBCBDF9643A7D34A27F68D2632329E65 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				AABF3BCE05B262749DC13C63BA01E735 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				1DF1E30A4692124856D09A72364D128B /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				865A28104453FBC6B46A470CBFDE67B7 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				4D1152EBA45C12D8B6D34BB76468331F /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				AE93265B07C7219AD96DDFE48492C24B /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				4E22F2F1F4DD7F0EFB2CD093FBCAA884 /* NVActivityIndicatorPresenter.swift in Sources */,
+				57576563140BA1551FB009A758B44B2A /* NVActivityIndicatorShape.swift in Sources */,
+				6E50E42F7D3D0A40EB84A184EE89CAE5 /* NVActivityIndicatorView-dummy.m in Sources */,
+				7FDC64860FB6713E2983E827DB29F252 /* NVActivityIndicatorView.swift in Sources */,
+				F7C0529D2A2330B61948C0D0D67E56AB /* NVActivityIndicatorViewable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEDF6B234620424933945FD0F184F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4C499288329DE4E6C5ADFAD5879129 /* EMPageViewController.swift in Sources */,
+				F6296B1247C59D220FE18CD73CAD7978 /* FixedPagingViewController.swift in Sources */,
+				305642BDCA9CBB1DECAD600EF8B9875F /* IndexedPagingDataSource.swift in Sources */,
+				35587AC3EBC61397EC006179588D27E6 /* IndexedPagingItem.swift in Sources */,
+				6B0DF238DD967BB1FEE401540B62E377 /* InvalidationState.swift in Sources */,
+				C8440020DD40FD90360AEAD391FF100A /* PagingBorderLayoutAttributes.swift in Sources */,
+				6DF3B58EAB568FAAF37B84548D877D0E /* PagingBorderOptions.swift in Sources */,
+				9EAECA3152165F1577E4B7ADC967D7E2 /* PagingBorderView.swift in Sources */,
+				9ABC3D637FE6A8652428721437E5107D /* PagingCell.swift in Sources */,
+				CF83E8EA00172B69228627CBE2B26480 /* PagingCellLayoutAttributes.swift in Sources */,
+				C4D090287044EC661E3E9DA812D456D7 /* PagingCellViewModel.swift in Sources */,
+				D2C73A4E5B799810A599AB2E7CCCB79D /* PagingCollectionViewLayout.swift in Sources */,
+				8B0C9E592B060DB005333B7F561F9085 /* PagingContentInteraction.swift in Sources */,
+				D54E90B920438E7867DA9621EE51437C /* PagingDiff.swift in Sources */,
+				8C385CD19178C9E76B77C96173ACAF99 /* PagingDirection.swift in Sources */,
+				ACFEA50550CF46BB81184FED29E79AA8 /* PagingDistance.swift in Sources */,
+				115C48F6E7A4D41F75A43197C421B94B /* PagingEvent.swift in Sources */,
+				4C81D0661D71E5BD00F4094822B6CF8D /* PagingIndicatorLayoutAttributes.swift in Sources */,
+				AECF2D77E30D65EAA2FF5182AF2A8022 /* PagingIndicatorMetric.swift in Sources */,
+				21A746823ED5C0650D548166BD157049 /* PagingIndicatorOptions.swift in Sources */,
+				EF48603C8197309D96FEED43E658587F /* PagingIndicatorView.swift in Sources */,
+				040CF5E9F66DFFB1EB661B87EE74283E /* PagingInvalidationContext.swift in Sources */,
+				FB8B89E77754777FCEB39ECABE282BEC /* PagingItem.swift in Sources */,
+				E15BFBF4E2183798706DC34E5FBC8ABF /* PagingItems.swift in Sources */,
+				67289CCF25752B1384EBA56C59DCB158 /* PagingLayout.swift in Sources */,
+				14F1704EE9E61D3B75DC8CB45678BDC6 /* PagingMenuHorizontalAlignment.swift in Sources */,
+				35ADB3A8754FC4D6B396A3FEA914432D /* PagingMenuInteraction.swift in Sources */,
+				BB68AD439B6FDADD9DC5FC6FF2DDCA19 /* PagingMenuItemSize.swift in Sources */,
+				63BCD85682BD9EC6D1CAED0DEC2CDD61 /* PagingMenuItemSource.swift in Sources */,
+				E6DE5E8343B97E2ED853562D2393060B /* PagingMenuTransition.swift in Sources */,
+				4E4C5AFE1AEAF1B59DB4A96630A4F76E /* PagingOptions.swift in Sources */,
+				BD15DF91AE57EB1F370CDEF36C8B2B57 /* PagingSelectedScrollPosition.swift in Sources */,
+				E611E95AB87D70E1ED164F314814487F /* PagingSizeCache.swift in Sources */,
+				7AD7DD8B99ADE915E1B18E5D9EC04EF2 /* PagingState.swift in Sources */,
+				25FC1FA2A370D3596A17B7EB208D3408 /* PagingStateMachine.swift in Sources */,
+				5B02D0281B315102A9FA3EDFA7FF8551 /* PagingTitleCell.swift in Sources */,
+				8DC6672C40454834AE4272B9A17E397A /* PagingTransition.swift in Sources */,
+				A468DDA384DA2DBA8088B9F59F0BDB07 /* PagingView.swift in Sources */,
+				46BB897B41F7EE5027AB7F30AB13A7A7 /* PagingViewController.swift in Sources */,
+				861F309488ECE4C06C48372DB6A4909E /* PagingViewControllerDataSource.swift in Sources */,
+				497D720532E5A0BECB6C9D82146BD2F3 /* PagingViewControllerDelegate.swift in Sources */,
+				3B11083900FCF34FBF57B21AF548BFC7 /* PagingViewControllerInfiniteDataSource.swift in Sources */,
+				D545287F11A4DE8A7A0ADE9B5BAA9B78 /* Parchment-dummy.m in Sources */,
+				237BC767BC2DF9E460373B563DDDA61C /* Tween.swift in Sources */,
+				724E2111CBA9EE612C0F7EA0D96C79C0 /* UIColor+interpolation.swift in Sources */,
+				0FFAACCB89F9F211E6FC41F3C9D1424E /* UIEdgeInsets.swift in Sources */,
+				D35B4AC4E9A2568EB59E88CAECDD14E9 /* UIScrollView+near.swift in Sources */,
+				33881CB00881CC988B846485D610E933 /* UIView+constraints.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DCC2C76C061ED0BE3B5ADC0A5DADA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7986B9FC27E1B62BD5F19230BF12E83 /* shim.swift in Sources */,
+				051CD4C4904647835BA5CEA60B719CED /* SWXMLHash+TypeConversion.swift in Sources */,
+				32C15478A1FA55680F1436387E5094B9 /* SWXMLHash-dummy.m in Sources */,
+				B034BD712510938BC918F1EE710E5BDC /* SWXMLHash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1BE27AC7E4F1DAD9F58BD210A350114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B31E5E2AB4E3B30E8FFD77A973C31E /* Pods-AkharinKhabarTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C063EDFF583214ACC6C07A46C71D4A15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11797F83B5509D2E660C024EB62DA301 /* DataCache.swift in Sources */,
+				A32F8519FC9D7FF5D67AA4DFB3B43F0D /* DataLoader.swift in Sources */,
+				46B10DD9F60F03BCE3DBCCF81465A1ED /* Deprecated.swift in Sources */,
+				A06DE4125460931D125C790668915DAB /* ImageCache.swift in Sources */,
+				1F4B9B0DE215ABCE08E24141E064AFB1 /* ImageDecoding.swift in Sources */,
+				93E1E95417192106C93DF616AA5E4F24 /* ImagePipeline.swift in Sources */,
+				328202BD68F6D4F15608D3CB4E4E1402 /* ImagePreheater.swift in Sources */,
+				C0838EBCCBB64439D18D650C71A97332 /* ImageProcessing.swift in Sources */,
+				D0C85BA21609CAABE7CC2DA80537F071 /* ImageRequest.swift in Sources */,
+				7DB71FE3C08FEFD26720E68B4E8923E2 /* ImageTaskMetrics.swift in Sources */,
+				7F29B02C331B6372F256367ADF3AF831 /* ImageView.swift in Sources */,
+				596AD89AC2609AA8A572B9258B0AE7E9 /* Internal.swift in Sources */,
+				60D2C30E524BA87E8B99DEF7C8421890 /* Nuke-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC399CEC576B42C962CEB290481CAF95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4BA1EDE444A770F834605F4B65348E /* AFError.swift in Sources */,
+				D4C3899574E9D5DF5E5DA52310560BCC /* Alamofire-dummy.m in Sources */,
+				4E1A913EFB404FB11524718FF0298EFE /* Alamofire.swift in Sources */,
+				DBE6E2E4D205545E7988CFA5057C31D6 /* DispatchQueue+Alamofire.swift in Sources */,
+				FF9C7BC64DB23D2CED48197DE67F0335 /* MultipartFormData.swift in Sources */,
+				B77705737566AE83ED7E448923D7FA60 /* NetworkReachabilityManager.swift in Sources */,
+				500C8EDA60C07B0F127C7FC385E17D38 /* Notifications.swift in Sources */,
+				796177DE2762F24DAC16A709FD954838 /* ParameterEncoding.swift in Sources */,
+				965DACF3DC02857ECBE66C5CBA3DA5D4 /* Request.swift in Sources */,
+				52237C35642089F77DD4D723CEB25737 /* Response.swift in Sources */,
+				5EE5FED83B90A606A763CF1114D1D6FB /* ResponseSerialization.swift in Sources */,
+				F9EA61D484CC15FDDAB0D8C0D26D7949 /* Result.swift in Sources */,
+				6BEA14EC335E07C7063CD1383C0C443C /* ServerTrustPolicy.swift in Sources */,
+				1FC3FD39157C2FFFF3869A1300730086 /* SessionDelegate.swift in Sources */,
+				7068E8A7DDC1424EE8F24BC77E8746F4 /* SessionManager.swift in Sources */,
+				36FF8853CB34A9297AFAA8F5F7456324 /* TaskDelegate.swift in Sources */,
+				B424F524BBBE34E685129945993809A8 /* Timeline.swift in Sources */,
+				58A9719584AFA2D108D9E5C585A79329 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDBD30C2ECF53689E9B69AC38B9BEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97F9D1DD73485943230B467741FB91F /* Pods-AkharinKhabar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC7D14154D8A3F47B0D9A735507D86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4C19E5BB6FE49AD40FF04F1BAC49F5 /* Pods-AkharinKhabarUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A0FEAE8EC942A99901530ABEC7E53ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AkharinKhabar";
+			target = CB6524EAA476D9FB79EA32DAE31DCD98 /* Pods-AkharinKhabar */;
+			targetProxy = BB1ABD2D7743CD518AEFED69D6D9F67C /* PBXContainerItemProxy */;
+		};
+		74E1C7DD6AEC36D59D3E88580AAD04CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Parchment;
+			target = 048FDB8514EE7F659053CD9E95CE5160 /* Parchment */;
+			targetProxy = 4FE12078E11323C687E39B43A97A26DA /* PBXContainerItemProxy */;
+		};
+		90D4A9CFD65E0DFB75F23A44B98EFC4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWXMLHash;
+			target = D97C73A22793E64AE30BA54FA57682B3 /* SWXMLHash */;
+			targetProxy = 706FEF9B4D5D63F52B1C57F5C277B54C /* PBXContainerItemProxy */;
+		};
+		A87AAA022BE0307C02F81D64DB5DEC52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = 978D35F2E84D7D745602FFB2E17B1021 /* NVActivityIndicatorView */;
+			targetProxy = 5089D398E6B962F39886321960CB0A28 /* PBXContainerItemProxy */;
+		};
+		CFA9F9BCDAA737D3537144207B64D5C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = E76458C58C9140B6A16D60547E68E80C /* Alamofire */;
+			targetProxy = ECA6C437EC29CA735534FF705A0B0541 /* PBXContainerItemProxy */;
+		};
+		D22A8366EF8DFED109EC281E2620B9D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Nuke;
+			target = 42B95F4ED4978CA37B02F88E100B0A31 /* Nuke */;
+			targetProxy = F93B21C693C2AE6923DD37199F638B69 /* PBXContainerItemProxy */;
+		};
+		E8B63E60779B227FDA83C0966A6045CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AkharinKhabar";
+			target = CB6524EAA476D9FB79EA32DAE31DCD98 /* Pods-AkharinKhabar */;
+			targetProxy = 2E63ECEC1D82B39AA7D3FA7C7B8E1421 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1496B0E8F42F96501DEE7B4B6E8A0610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842CCB6C473963E1309A0BA9F4071463 /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/SWXMLHash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_MODULE_NAME = SWXMLHash;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		20F48FBF7B6FC9254C3E9B04FF358DDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CACC5694B926844B08084C2C1448B7 /* Nuke.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nuke/Nuke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nuke/Nuke-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Nuke/Nuke.modulemap";
+				PRODUCT_MODULE_NAME = Nuke;
+				PRODUCT_NAME = Nuke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28C62FA53BEBD8922EACA357ACB29B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842CCB6C473963E1309A0BA9F4071463 /* SWXMLHash.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SWXMLHash/SWXMLHash-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWXMLHash/SWXMLHash-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SWXMLHash/SWXMLHash.modulemap";
+				PRODUCT_MODULE_NAME = SWXMLHash;
+				PRODUCT_NAME = SWXMLHash;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2ABDEAA4399E7D6B6772EAF9AC83870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C3BD8E06A73EF8077E9545EB76CF25 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3CEB19D73B529393C2A022826AD29410 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13DB5881DC47567FBE96C6145459019 /* Parchment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Parchment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3DC9FE3057551BD389F100776401D9C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7904BF24A4EC9EEC53D046F9902007B1 /* Pods-AkharinKhabarUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AkharinKhabarUITests/Pods-AkharinKhabarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AkharinKhabarUITests/Pods-AkharinKhabarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		590658F1E608DD93E89DC58ECC2BAC58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C89CB7A1D996B7613BB38C6AC1DF9EE7 /* Pods-AkharinKhabarTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AkharinKhabarTests/Pods-AkharinKhabarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AkharinKhabarTests/Pods-AkharinKhabarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8B660F76FFE2ACC9FC02413B7F5AA6C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0C3BD8E06A73EF8077E9545EB76CF25 /* NVActivityIndicatorView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		959D400A61C03B12F46A04684FF0AFE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C443A930F3FF92C7F31498FB0898387D /* Pods-AkharinKhabar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8539E5FBB12CD1DDC18A44D5850CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08BD0304836D846710E306941B181D97 /* Pods-AkharinKhabarUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AkharinKhabarUITests/Pods-AkharinKhabarUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AkharinKhabarUITests/Pods-AkharinKhabarUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3E94C6CC3BA0FF5CE18F0EE46BE54C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CACC5694B926844B08084C2C1448B7 /* Nuke.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Nuke/Nuke-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Nuke/Nuke-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Nuke/Nuke.modulemap";
+				PRODUCT_MODULE_NAME = Nuke;
+				PRODUCT_NAME = Nuke;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8EE582692CA864F13FCD56AA5497E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A719CC1CD39696B344EBC4A879D9658 /* Pods-AkharinKhabar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AkharinKhabar/Pods-AkharinKhabar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C9797F7637F6D217A48ECA16B1C6111A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDAF6305371450ABAA001B7E0FC5162 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4E92A006031B33D2D53A16B5C77602A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13DB5881DC47567FBE96C6145459019 /* Parchment.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Parchment/Parchment-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Parchment/Parchment-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Parchment/Parchment.modulemap";
+				PRODUCT_MODULE_NAME = Parchment;
+				PRODUCT_NAME = Parchment;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F0FA10440C9C14E1BC1C5C37BFFABEDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CDAF6305371450ABAA001B7E0FC5162 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F99BBCF4B35B4D851C53409530616556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BDF2748F30428F61EB5AC8EE1D3D38F /* Pods-AkharinKhabarTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AkharinKhabarTests/Pods-AkharinKhabarTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AkharinKhabarTests/Pods-AkharinKhabarTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0220BD3B34735B647ACF5E785B137B58 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ABDEAA4399E7D6B6772EAF9AC83870F /* Debug */,
+				8B660F76FFE2ACC9FC02413B7F5AA6C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E0ABED122552B79D318B27E9CA31A21 /* Build configuration list for PBXNativeTarget "Pods-AkharinKhabarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99BBCF4B35B4D851C53409530616556 /* Debug */,
+				590658F1E608DD93E89DC58ECC2BAC58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C4CB3E1BC508E05BED4B7778DA0CED /* Build configuration list for PBXNativeTarget "Pods-AkharinKhabar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959D400A61C03B12F46A04684FF0AFE7 /* Debug */,
+				A8EE582692CA864F13FCD56AA5497E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427F0F003A1AD80AE00155AFCDEFAC20 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0FA10440C9C14E1BC1C5C37BFFABEDF /* Debug */,
+				C9797F7637F6D217A48ECA16B1C6111A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66CE447CF49D95306EB56A9F9E5013AC /* Build configuration list for PBXNativeTarget "Nuke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20F48FBF7B6FC9254C3E9B04FF358DDE /* Debug */,
+				A3E94C6CC3BA0FF5CE18F0EE46BE54C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FD20369265792D3F2B3C922A77C7046 /* Build configuration list for PBXNativeTarget "Pods-AkharinKhabarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DC9FE3057551BD389F100776401D9C2 /* Debug */,
+				9C8539E5FBB12CD1DDC18A44D5850CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D3A3DF58CABC6F53A511C74BF67D92 /* Build configuration list for PBXNativeTarget "Parchment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB19D73B529393C2A022826AD29410 /* Debug */,
+				E4E92A006031B33D2D53A16B5C77602A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA48451AEDD6AE1B432512C22FA865D7 /* Build configuration list for PBXNativeTarget "SWXMLHash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28C62FA53BEBD8922EACA357ACB29B3E /* Debug */,
+				1496B0E8F42F96501DEE7B4B6E8A0610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

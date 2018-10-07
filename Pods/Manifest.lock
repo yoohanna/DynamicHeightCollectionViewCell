@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Nuke (7.3.2)
+  - NVActivityIndicatorView (4.3.0):
+    - NVActivityIndicatorView/Presenter (= 4.3.0)
+  - NVActivityIndicatorView/Presenter (4.3.0)
+  - Parchment (1.4.1)
+  - SWXMLHash (4.7.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Nuke
+  - NVActivityIndicatorView (~> 4.1)
+  - Parchment (~> 1.4)
+  - SWXMLHash (~> 4.7)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Nuke
+    - NVActivityIndicatorView
+    - Parchment
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Nuke: a9a31bbd6c6723753ab024ef22057dcaaf046c1b
+  NVActivityIndicatorView: 963f62bf9f993fcf23218e55958e5b1761b9504c
+  Parchment: e6c2a3a0063739382dd207e21d48fe5e81f3324a
+  SWXMLHash: 661b67bc94a01fe71a6ad4ca690cf2cafa5d1d6f
+
+PODFILE CHECKSUM: 5013a3f742f579315ce48f0ff3363334f184cec2
+
+COCOAPODS: 1.6.0.beta.1

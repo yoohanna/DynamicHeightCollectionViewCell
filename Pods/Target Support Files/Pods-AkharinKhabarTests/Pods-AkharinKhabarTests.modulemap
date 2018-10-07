@@ -1,0 +1,6 @@
+framework module Pods_AkharinKhabarTests {
+  umbrella header "Pods-AkharinKhabarTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
