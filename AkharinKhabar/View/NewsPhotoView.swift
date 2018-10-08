@@ -9,7 +9,6 @@
 import UIKit
 
 class NewsPhotoView: UIView {
-    public static var rowHeights:[Int:CGFloat] = [:]
     
     // MARK: Public
     public var newsPhoto: NewsPhoto!{
@@ -120,8 +119,6 @@ class NewsPhotoView: UIView {
         self.commentButton.setTitleColor(.lightGray, for: .normal)
         self.commentButton.titleLabel?.font = UIFont.mySystemFont(ofSize: 12)
 
-
-        
         for idx in 0...1{
             let divider:UIView = UIView()
             divider.translatesAutoresizingMaskIntoConstraints = false
@@ -141,21 +138,6 @@ class NewsPhotoView: UIView {
         }
     }
     
-    
-    func getHeaderInformations (myUrl: URL, completion: @escaping (_ content: String?) -> ()) {
-        var request = URLRequest(url: myUrl)
-        request.httpMethod = "HEAD"
-        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
-            guard error == nil, let reponse = response as? HTTPURLResponse, let contentType = reponse.allHeaderFields["Content-Type"],let contentLength = reponse.allHeaderFields["Content-Length"]
-                else{
-                    completion(nil)
-                    return
-            }
-            let content = String(describing: contentType) + "/" + String(describing: contentLength)
-            completion(content)
-        }
-        task.resume()
-    }
     
     fileprivate func updateUI(){
         self.resourceTitle.text = self.newsPhoto.resourceTitle

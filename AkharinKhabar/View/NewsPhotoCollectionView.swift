@@ -105,7 +105,6 @@ extension NewsPhotoCollectionView: UICollectionViewDelegateFlowLayout{
         }
         let heightCell = NewsPhotoView.height + imageEstimateHeight
         self.rowHeights[indexPath.row] = imageEstimateHeight
-        NewsPhotoView.rowHeights[indexPath.row] = imageEstimateHeight
         
         return CGSize(width: widthCell, height: heightCell)
     }
