@@ -9,7 +9,6 @@ target 'AkharinKhabar' do
     pod 'NVActivityIndicatorView', '~> 4.1'
 	pod 'Alamofire', '~> 4.7'
 	pod 'SWXMLHash', '~> 4.7'
-    pod 'Parchment', '~> 1.4'
 
   target 'AkharinKhabarTests' do
     inherit! :search_paths

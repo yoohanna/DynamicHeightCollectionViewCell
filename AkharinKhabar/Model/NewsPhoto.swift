@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+
 enum NewsType {
     case video
     case vocal
